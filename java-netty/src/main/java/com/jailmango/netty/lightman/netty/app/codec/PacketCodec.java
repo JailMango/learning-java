@@ -10,6 +10,7 @@ import com.jailmango.netty.lightman.netty.app.packet.Packet;
 import com.jailmango.netty.lightman.netty.app.packet.command.Command;
 import com.jailmango.netty.lightman.netty.app.packet.request.CreateGroupRequestPacket;
 import com.jailmango.netty.lightman.netty.app.packet.request.GroupMessageRequestPacket;
+import com.jailmango.netty.lightman.netty.app.packet.request.HeartBeatRequestPacket;
 import com.jailmango.netty.lightman.netty.app.packet.request.JoinGroupRequestPacket;
 import com.jailmango.netty.lightman.netty.app.packet.request.ListGroupMembersRequestPacket;
 import com.jailmango.netty.lightman.netty.app.packet.request.LoginRequestPacket;
@@ -18,6 +19,7 @@ import com.jailmango.netty.lightman.netty.app.packet.request.MessageRequestPacke
 import com.jailmango.netty.lightman.netty.app.packet.request.QuitGroupRequestPacket;
 import com.jailmango.netty.lightman.netty.app.packet.response.CreateGroupResponsePacket;
 import com.jailmango.netty.lightman.netty.app.packet.response.GroupMessageResponsePacket;
+import com.jailmango.netty.lightman.netty.app.packet.response.HeartBeatResponsePacket;
 import com.jailmango.netty.lightman.netty.app.packet.response.JoinGroupResponsePacket;
 import com.jailmango.netty.lightman.netty.app.packet.response.ListGroupMembersResposnePacket;
 import com.jailmango.netty.lightman.netty.app.packet.response.LoginResponsePacket;
@@ -71,6 +73,8 @@ public enum PacketCodec {
         packetTypeMap.put(Command.GROUP_MESSAGE_RESPONSE, GroupMessageResponsePacket.class);
         packetTypeMap.put(Command.LOGOUT_REQUEST, LogoutRequestPacket.class);
         packetTypeMap.put(Command.LOGOUT_RESPONSE, LogoutResponsePacket.class);
+        packetTypeMap.put(Command.HEART_BEAT_REQUEST, HeartBeatRequestPacket.class);
+        packetTypeMap.put(Command.HEART_BEAT_RESPONSE, HeartBeatResponsePacket.class);
 
         serializerMap = new HashMap<>();
         serializerMap.put(SerializerAlgorithm.JSON, new FastJsonSerializer());

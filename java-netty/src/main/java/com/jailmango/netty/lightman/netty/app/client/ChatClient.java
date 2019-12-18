@@ -19,6 +19,7 @@ import com.jailmango.netty.lightman.netty.app.client.console.ConsoleCommandManag
 import com.jailmango.netty.lightman.netty.app.client.console.impl.LoginConsoleCommand;
 import com.jailmango.netty.lightman.netty.app.client.handler.CreateGroupResponseHandler;
 import com.jailmango.netty.lightman.netty.app.client.handler.GroupMessageResponseHandler;
+import com.jailmango.netty.lightman.netty.app.client.handler.HeartBeatSenderHandler;
 import com.jailmango.netty.lightman.netty.app.client.handler.JoinGroupResponseHandler;
 import com.jailmango.netty.lightman.netty.app.client.handler.ListGroupMembersResponseHandler;
 import com.jailmango.netty.lightman.netty.app.client.handler.LoginResponseHandler;
@@ -28,6 +29,7 @@ import com.jailmango.netty.lightman.netty.app.client.handler.QuitGroupResponseHa
 import com.jailmango.netty.lightman.netty.app.codec.CustomSpliter;
 import com.jailmango.netty.lightman.netty.app.codec.PacketDecoder;
 import com.jailmango.netty.lightman.netty.app.codec.PacketEncoder;
+import com.jailmango.netty.lightman.netty.app.handler.IMIdleStateHandler;
 import com.jailmango.netty.lightman.netty.app.util.SessionUtil;
 
 /**
@@ -63,6 +65,7 @@ public class ChatClient {
             .handler(new ChannelInitializer<NioSocketChannel>() {
                 @Override
                 protected void initChannel(NioSocketChannel ch) throws Exception {
+                    ch.pipeline().addLast(new IMIdleStateHandler());
                     ch.pipeline().addLast(new CustomSpliter());
                     ch.pipeline().addLast(new PacketDecoder());
                     ch.pipeline().addLast(new LoginResponseHandler());
@@ -74,6 +77,7 @@ public class ChatClient {
                     ch.pipeline().addLast(new GroupMessageResponseHandler());
                     ch.pipeline().addLast(new LogoutResponseHandler());
                     ch.pipeline().addLast(new PacketEncoder());
+                    ch.pipeline().addLast(new HeartBeatSenderHandler());
                 }
             });
 
