@@ -16,6 +16,7 @@ import com.jailmango.netty.lightman.netty.app.counter.ClientCounter;
 import com.jailmango.netty.lightman.netty.app.server.handler.AnotherOutBoundHandler;
 import com.jailmango.netty.lightman.netty.app.server.handler.AuthHandler;
 import com.jailmango.netty.lightman.netty.app.server.handler.CounterHandler;
+import com.jailmango.netty.lightman.netty.app.server.handler.HeartBeatRequestHandler;
 import com.jailmango.netty.lightman.netty.app.server.handler.IMHandler;
 import com.jailmango.netty.lightman.netty.app.server.handler.LoginRequestHandler;
 import com.jailmango.netty.lightman.netty.app.server.handler.OutBoundHandler;
@@ -52,9 +53,11 @@ public class ChatServer {
                 @Override
                 protected void initChannel(NioSocketChannel ch) throws Exception {
                     ch.pipeline().addLast(new CounterHandler());
+                    // ch.pipeline().addLast(new IMIdleStateHandler());
                     ch.pipeline().addLast(new CustomSpliter());
                     ch.pipeline().addLast(PacketCodecHandler.INSTANCE);
                     ch.pipeline().addLast(LoginRequestHandler.INSTANCE);
+                    ch.pipeline().addLast(HeartBeatRequestHandler.INSTANCE);
                     ch.pipeline().addLast(AuthHandler.INSTANCE);
                     ch.pipeline().addLast(WasteTimeHandler.INSTANCE);
                     // 压缩handler, 合并平行handler
