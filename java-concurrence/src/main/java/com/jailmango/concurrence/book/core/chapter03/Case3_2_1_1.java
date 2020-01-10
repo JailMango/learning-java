@@ -22,22 +22,22 @@ public class Case3_2_1_1 {
         MyThread thread = new MyThread();
         thread.start();
 
-        logger.info("[{}]想实现当子线程执行完毕后，再继续执行下去", Thread.currentThread().getName());
-        logger.info("[{}]不知道sleep()多久", Thread.currentThread().getName());
+        logger.info("主线程[{}]想实现当子线程执行完毕后，再继续执行下去", Thread.currentThread().getName());
+        logger.info("主线程[{}]不知道sleep()多久", Thread.currentThread().getName());
     }
 
     private static class MyThread extends Thread {
         @Override
         public void run() {
             int second = 2000;
-            logger.info("[{}] Second: [{}]", Thread.currentThread().getName(), second);
+            logger.info("子线程[{}] Second: [{}]", Thread.currentThread().getName(), second);
             try {
                 Thread.sleep(second);
             }
             catch (InterruptedException e) {
                 logger.error(e.getMessage());
             }
-            logger.info("[{}] end...", Thread.currentThread().getName());
+            logger.info("子线程[{}] end...", Thread.currentThread().getName());
         }
     }
 }
