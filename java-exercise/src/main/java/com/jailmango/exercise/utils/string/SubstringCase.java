@@ -37,6 +37,30 @@ public class SubstringCase {
         arr = s.split("o");
         arr = s.split("o", 2);
         arr = s.split("o", 3);
+
+        String fileName = "Map.xml";
+        String result = getFileNameWithoutFileType(fileName);
+
         logger.info("end...");
+    }
+
+    /**
+     * 获取文件后缀
+     *
+     * @param fileName String
+     * @return String
+     */
+    private static String getFileSuffix(String fileName) {
+        return fileName.substring(fileName.indexOf('.'), fileName.length());
+    }
+
+    /**
+     * 获取文件名，不包括后缀
+     *
+     * @param fileName String
+     * @return String
+     */
+    private static String getFileNameWithoutFileType(String fileName) {
+        return fileName.replace(getFileSuffix(fileName), "");
     }
 }
