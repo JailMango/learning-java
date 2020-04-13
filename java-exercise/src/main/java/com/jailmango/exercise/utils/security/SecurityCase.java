@@ -29,6 +29,13 @@ public class SecurityCase {
             logger.info(ePwd);
             String dPwd = SecurityUtils.decrypt("gezvqd3CWyI=");
             logger.info(dPwd);
+
+            CoreKeyProperties coreKeyProperties = new CoreKeyProperties();
+            String privKeyPath = coreKeyProperties.getRsaPrivPath();
+            String privPwd = coreKeyProperties.getRsaPwd();
+
+            logger.info("privKeyPath:[{}]", privKeyPath);
+            logger.info("privPwd:[{}]", privPwd);
         }
         catch (Exception e) {
             logger.error(e.getLocalizedMessage());
