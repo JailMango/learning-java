@@ -19,6 +19,9 @@ public class StringSplit {
     private static final Logger logger = LoggerFactory.getLogger(StringSplit.class);
 
     public static void main(String[] args) {
+        String str = "";
+        String[] arr = str.split(",");
+
         String expr = "cond1||cond2||cond3";
         String result = expr.replaceAll("\\|\\|", "&&");
 
