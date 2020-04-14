@@ -24,9 +24,7 @@ public class StartAndRunMethodCase {
      * @param args String[]
      */
     public static void main(String[] args) {
-        Runnable runnable = () -> {
-            logger.info("{} doing...", Thread.currentThread().getName());
-        };
+        Runnable runnable = () -> logger.info("{} doing...", Thread.currentThread().getName());
 
         runnable.run();
         new Thread(runnable).start();
