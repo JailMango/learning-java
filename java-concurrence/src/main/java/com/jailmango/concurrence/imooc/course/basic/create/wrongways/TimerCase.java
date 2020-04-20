@@ -7,7 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * TimmerTask 用定时器创建线程
+ * TimmerTask <br/>
+ * 用定时器创建线程
  * 
  * @author he.gang33
  * @CreateDate 2020/4/13

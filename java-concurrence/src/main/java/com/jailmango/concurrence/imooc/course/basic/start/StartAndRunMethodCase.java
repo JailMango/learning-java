@@ -4,7 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * StartAndRunMethodCase 比较start()和run()
+ * StartAndRunMethodCase <br/>
+ * 比较start()和run()
  * 
  * @author he.gang33
  * @CreateDate 2020/4/14

@@ -4,7 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * ThreadCase 用Thread类实现创建线程
+ * ThreadCase <br/>
+ * 用Thread类实现创建线程
  * 
  * @author he.gang33
  * @CreateDate 2020/4/13

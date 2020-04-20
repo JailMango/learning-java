@@ -4,7 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * CantStartTwiceCase 不能两次调用start()方法，否则会报错
+ * CantStartTwiceCase <br/>
+ * 不能两次调用start()方法，否则会报错
  * 
  * @author he.gang33
  * @CreateDate 2020/4/14

@@ -4,7 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * BothRunnableAndThread 同时使用Runnable和Thread
+ * BothRunnableAndThread <br/>
+ * 同时使用Runnable和Thread
  * 
  * @author he.gang33
  * @CreateDate 2020/4/13

@@ -4,7 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * RunnableCase 用Runnable方式创建线程
+ * RunnableCase <br/>
+ * 用Runnable方式创建线程
  * 
  * @author he.gang33
  * @CreateDate 2020/4/13

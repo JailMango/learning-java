@@ -7,8 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * ThreadPoolCase 用线程池创建线程
- * 从本质上看，并不是一种新的创建线程的方式
+ * ThreadPoolCase <br/>
+ * 用线程池创建线程，从本质上看，并不是一种新的创建线程的方式
  * 
  * @author he.gang33
  * @CreateDate 2020/4/13

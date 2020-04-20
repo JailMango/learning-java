@@ -4,7 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * AnonymousInnerClassCase 用匿名内部类的方式创建线程
+ * AnonymousInnerClassCase <br/>
+ * 用匿名内部类的方式创建线程
  * 
  * @author he.gang33
  * @CreateDate 2020/4/13
