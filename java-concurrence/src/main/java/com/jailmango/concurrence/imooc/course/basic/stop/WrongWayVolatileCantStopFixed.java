@@ -7,25 +7,20 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * WrongWayVolatileCantStop <br/>
- * Chapter5-11 <br/>
- * 错误方法：演示用volatile的局限性 - part2 <br/>
- * 此例中，生产者的生产速度很快，消费者消费速度慢。<br/>
- * 所以阻塞队列满了以后，生产者会阻塞，等待消费者进一步消费 <br/>
- * 本示例失败的原因是：因为使用了阻塞队列，生产者可能被阻塞在 storage.put(num); <br/>
- * 有可能无法被唤醒，即使更改了volatile变量的值，也无法进行再次判断
+ * WrongWayVolatileCantStopFixed <br/>
+ * 用中断来修复WrongWayVolatileCantStop中无尽等待的问题
  *
  * @author he.gang33
- * @CreateDate 2020/4/19
+ * @CreateDate 2020/4/23
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0
  */
-public class WrongWayVolatileCantStop {
+public class WrongWayVolatileCantStopFixed {
 
     /**
      * logger
      */
-    private static final Logger logger = LoggerFactory.getLogger(WrongWayVolatileCantStop.class);
+    private static final Logger logger = LoggerFactory.getLogger(WrongWayVolatileCantStopFixed.class);
 
     public static void main(String[] args) throws InterruptedException {
         BlockingQueue storage = new ArrayBlockingQueue(10);
@@ -42,7 +37,7 @@ public class WrongWayVolatileCantStop {
         }
 
         logger.info("消费者不要更多数据了...");
-        producer.canceled = true;
+        producerThread.interrupt();
     }
 
     private static class Producer implements Runnable {
@@ -51,11 +46,6 @@ public class WrongWayVolatileCantStop {
          * logger
          */
         private static final Logger logger = LoggerFactory.getLogger(Producer.class);
-
-        /**
-         * Canceled
-         */
-        public volatile boolean canceled = false;
 
         /**
          * BlockingQueue
@@ -76,7 +66,7 @@ public class WrongWayVolatileCantStop {
             int num = 0;
 
             try {
-                while (!canceled && num <= 100000) {
+                while (!Thread.currentThread().isInterrupted() && num <= 100000) {
                     if (num % 100 == 0) {
                         logger.info("{}是100的倍数...", num);
                         storage.put(num);
@@ -115,12 +105,7 @@ public class WrongWayVolatileCantStop {
         }
 
         public boolean needMoreNums() {
-            if (Math.random() > 0.95) {
-                return false;
-            }
-            else {
-                return true;
-            }
+            return Math.random() > 0.95;
         }
 
         public BlockingQueue<Integer> getStorage() {
@@ -131,5 +116,4 @@ public class WrongWayVolatileCantStop {
             this.storage = storage;
         }
     }
-
 }
