@@ -15,19 +15,19 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.util.FileCopyUtils;
 
 /**
- * SvnFileUtil
+ * SvnCommitUtil
  *
  * @author he.gang33
  * @CreateDate 2018-12-13
  * @see com.jailmango.exercise.utils.svn
  * @since R9.0<br>
  */
-public class SvnFileFilter {
+public class SvnCommitUtil {
 
     /**
      * logger
      */
-    private static final Logger logger = LoggerFactory.getLogger(SvnFileFilter.class);
+    private static final Logger logger = LoggerFactory.getLogger(SvnCommitUtil.class);
 
     /**
      * 开发库对应的本地路径
@@ -37,7 +37,7 @@ public class SvnFileFilter {
     /**
      * 过程库对应的本地路径
      */
-    private static final String PROC_PATH = "/Users/mango/Documents/repository/commit/1929961/branches/Capability_Layer/PCRF/02Product/";
+    private static final String PROC_PATH = "/Users/mango/Documents/repository/commit/2085779/branches/Capability_Layer/PCRF/02Product/";
 
     /**
      * 前缀
