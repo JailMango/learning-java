@@ -30,19 +30,39 @@ public class SvnCommitUtil {
     private static final Logger logger = LoggerFactory.getLogger(SvnCommitUtil.class);
 
     /**
-     * 开发库对应的本地路径
+     * 是否是V9版本
      */
-    private static final String DEV_PATH = "/Users/mango/Documents/repository/svn-repository/PCRF-R90/";
+    private static boolean isR9 = false;
 
     /**
-     * 过程库对应的本地路径
+     * 开发库对应的本地路径 - V8
      */
-    private static final String PROC_PATH = "/Users/mango/Documents/repository/commit/2085779/branches/Capability_Layer/PCRF/02Product/";
+    private static final String DEV_PATH_V8 = "/Users/mango/Documents/repository/svn-repository/pcrf-v81/all/root/";
 
     /**
-     * 前缀
+     * 过程库对应的本地路径 - V8
      */
-    private static final String PREFIX = "branches/Capability_Layer/PCRF/02Product/";
+    private static final String PROC_PATH_V8 = "/Users/mango/Documents/repository/commit/2105516/branches/main_branch/";
+
+    /**
+     * 前缀 - V8
+     */
+    private static final String PREFIX_V8 = "branches/main_branch/";
+
+    /**
+     * 开发库对应的本地路径 - R9
+     */
+    private static final String DEV_PATH_R9 = "/Users/mango/Documents/repository/svn-repository/PCRF-R90/";
+
+    /**
+     * 过程库对应的本地路径 - R9
+     */
+    private static final String PROC_PATH_R9 = "/Users/mango/Documents/repository/commit/2085779/branches/Capability_Layer/PCRF/02Product/";
+
+    /**
+     * 前缀 - R9
+     */
+    private static final String PREFIX_R9 = "branches/Capability_Layer/PCRF/02Product/";
 
     /**
      * ZMP文件变动列表文件绝对路径
@@ -78,6 +98,34 @@ public class SvnCommitUtil {
      * Blank
      */
     private static final String BLANK = "";
+
+    /**
+     * 开发库对应的本地路径
+     */
+    private static String devPath;
+
+    /**
+     * 过程库对应的本地路径
+     */
+    private static String procPath;
+
+    /**
+     * 前缀
+     */
+    private static String prefix;
+
+    static {
+        if (isR9) {
+            devPath = DEV_PATH_R9;
+            procPath = PROC_PATH_R9;
+            prefix = PREFIX_R9;
+        }
+        else {
+            devPath = DEV_PATH_V8;
+            procPath = PROC_PATH_V8;
+            prefix = PREFIX_V8;
+        }
+    }
 
     /**
      * main
@@ -156,9 +204,9 @@ public class SvnCommitUtil {
             String procPath;
 
             for (int index = 0; index < list.size(); index++) {
-                path = list.get(index).replace(SYMBOL_UPDATE, BLANK).replace(SYMBOL_ADD, BLANK).replace(PREFIX, BLANK);
-                devPath = DEV_PATH + path;
-                procPath = PROC_PATH + path;
+                path = list.get(index).replace(SYMBOL_UPDATE, BLANK).replace(SYMBOL_ADD, BLANK).replace(prefix, BLANK);
+                devPath = SvnCommitUtil.devPath + path;
+                procPath = SvnCommitUtil.procPath + path;
 
                 FileCopyUtils.copy(new File(devPath), new File(procPath));
                 logger.info("copy [{}] to [{}]", devPath, procPath);
