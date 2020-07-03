@@ -26,14 +26,33 @@ public class Case4_1_9 {
         ThreadA[] a = new ThreadA[10];
         ThreadB[] b = new ThreadB[10];
 
+        for (int i = 0; i < 10; i++) {
+            a[i] = new ThreadA(service);
+            b[i] = new ThreadB(service);
+        }
+
+        for (int i = 0; i < 10; i++) {
+            a[i].start();
+            b[i].start();
+        }
+
     }
 
     private static class MyService {
 
+        /**
+         * ReentrantLock
+         */
         private ReentrantLock lock = new ReentrantLock();
 
+        /**
+         * Condtion
+         */
         private Condition condition = lock.newCondition();
 
+        /**
+         * hasValue
+         */
         private boolean hasValue = false;
 
         public void set() {
@@ -47,9 +66,9 @@ public class Case4_1_9 {
                 }
 
                 logger.info("★★★★★");
-                hasValue = false;
+                hasValue = true;
 
-                condition.signal();
+                condition.signalAll();
             }
             catch (InterruptedException e) {
                 e.printStackTrace();
@@ -70,9 +89,9 @@ public class Case4_1_9 {
                 }
 
                 logger.info("☆☆☆☆☆");
-                hasValue = true;
+                hasValue = false;
 
-                condition.signal();
+                condition.signalAll();
             }
             catch (InterruptedException e) {
                 e.printStackTrace();
@@ -86,6 +105,9 @@ public class Case4_1_9 {
 
     private static class ThreadA extends Thread {
 
+        /**
+         * MyService
+         */
         private MyService myService;
 
         public ThreadA(MyService myService) {
@@ -100,6 +122,9 @@ public class Case4_1_9 {
 
     private static class ThreadB extends Thread {
 
+        /**
+         * MyService
+         */
         private MyService myService;
 
         public ThreadB(MyService myService) {

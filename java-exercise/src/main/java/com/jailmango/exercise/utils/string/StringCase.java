@@ -25,6 +25,27 @@ public class StringCase {
      * @param args String[]
      */
     public static void main(String[] args) {
+        String content = "abc";
+        char[] carr = content.toCharArray();
+        for (int i = 0; i < carr.length; i++) {
+            logger.info("{}", carr[i]);
+        }
+
+        String condition = null;
+
+        switch (condition) {
+            case "1":
+                logger.info("1");
+                break;
+            case "2":
+                logger.info("2");
+                break;
+            default:
+                logger.info("default");
+                break;
+        }
+
+
         String hexStr = Hex.encodeHexString("000000000000000001:1=1,64=-1".getBytes());
 
         String longStr = "1234567890";
@@ -54,5 +75,8 @@ public class StringCase {
         String a3 = "201710";
         String a4 = "201712";
         String a5 = "201801";
+
+
+
     }
 }
