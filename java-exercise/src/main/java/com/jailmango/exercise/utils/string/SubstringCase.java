@@ -25,23 +25,24 @@ public class SubstringCase {
      */
     public static void main(String[] args) {
         String str = "1,2,3,4,5,6,7,8,9,0";
-        logger.info(str.substring(1, 3));
+         str = "1234567890";
+        logger.info(str.substring(3, 3));
 
-        String[] arr;
-        String s = "boo:and:foo";
-        // 我们对 s 进行了各种拆分，演示的代码和结果是：
-        arr = s.split(":");
-        arr = s.split(":", 2);
-        arr = s.split(":", 5);
-        arr = s.split(":", -2);
-        arr = s.split("o");
-        arr = s.split("o", 2);
-        arr = s.split("o", 3);
-
-        String fileName = "Map.xml";
-        String result = getFileNameWithoutFileType(fileName);
-
-        logger.info("end...");
+//        String[] arr;
+//        String s = "boo:and:foo";
+//        // 我们对 s 进行了各种拆分，演示的代码和结果是：
+//        arr = s.split(":");
+//        arr = s.split(":", 2);
+//        arr = s.split(":", 5);
+//        arr = s.split(":", -2);
+//        arr = s.split("o");
+//        arr = s.split("o", 2);
+//        arr = s.split("o", 3);
+//
+//        String fileName = "Map.xml";
+//        String result = getFileNameWithoutFileType(fileName);
+//
+//        logger.info("end...");
     }
 
     /**
