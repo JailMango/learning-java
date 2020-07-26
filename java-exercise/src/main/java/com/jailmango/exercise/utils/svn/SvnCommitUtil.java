@@ -32,7 +32,7 @@ public class SvnCommitUtil {
     /**
      * 是否是V9版本
      */
-    private static boolean isR9 = false;
+    private static boolean isR9 = true;
 
     /**
      * 开发库对应的本地路径 - V8
@@ -42,7 +42,7 @@ public class SvnCommitUtil {
     /**
      * 过程库对应的本地路径 - V8
      */
-    private static final String PROC_PATH_V8 = "/Users/mango/Documents/repository/commit/2105516/branches/main_branch/";
+    private static final String PROC_PATH_V8 = "/Users/mango/Documents/repository/commit/2119695/branches/main_branch/";
 
     /**
      * 前缀 - V8
@@ -57,7 +57,7 @@ public class SvnCommitUtil {
     /**
      * 过程库对应的本地路径 - R9
      */
-    private static final String PROC_PATH_R9 = "/Users/mango/Documents/repository/commit/2085779/branches/Capability_Layer/PCRF/02Product/";
+    private static final String PROC_PATH_R9 = "/Users/mango/Documents/repository/commit/2095820/branches/Capability_Layer/PCRF/02Product/";
 
     /**
      * 前缀 - R9
