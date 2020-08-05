@@ -7,8 +7,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Case4_1_15 - public final boolean hasQueuedThreads()方法的使用 <br/>
- *
+ * Case4_1_15 - 4.1.15. public final boolean hasQueuedThreads()方法的使用 <br/>
+ * 查询是否有线程正在等待获取此锁，也就是等待队列中是否有等待的线程。
+ * 
  * @author he.gang33
  * @CreateDate 2020/7/14
  * @see com.jailmango.concurrence.book.core.chapter04
@@ -28,20 +29,31 @@ public class Case4_1_15 {
         // step-1
         Thread threadA = new Thread(runnable);
         threadA.start();
-
-        // step-2
         Thread.sleep(500);
-        logger.info("hasQueueThreads: [{}]", service.lock.hasQueuedThreads());
+        Thread threadB = new Thread(runnable);
+        threadB.start();
+        Thread.sleep(500);
 
         logger.info("Thread-A hasQueueThread: [{}]", service.lock.hasQueuedThread(threadA));
+        logger.info("Thread-B hasQueueThread: [{}]", service.lock.hasQueuedThread(threadB));
+        logger.info("hasQueueThreads: [{}]", service.lock.hasQueuedThreads());
     }
 
     private static class MyService {
 
+        /**
+         * lock
+         */
         private ReentrantLock lock = new ReentrantLock();
 
+        /**
+         * condition
+         */
         private Condition condition = lock.newCondition();
 
+        /**
+         * wait
+         */
         public void waitMethod() {
             lock.lock();
             try {
