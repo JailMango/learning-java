@@ -63,6 +63,13 @@ public class SvnFileSort {
      */
     private static List<String> getOrderedFilePathList(String srcFilePath) throws IOException {
         List<String> list = FileUtils.readLines(new File(srcFilePath), StandardCharsets.UTF_8);
+        String path = "";
+
+        for (int i = 0; i < list.size(); i++) {
+            path = list.get(i);
+            path = path.substring(4, path.length());
+            list.set(i, path);
+        }
         Collections.sort(list);
         return list;
     }

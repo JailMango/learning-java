@@ -42,5 +42,14 @@ public class LongCase {
         else {
             logger.info("false");
         }
+
+        Long zero = 2L;
+
+        if (0 < zero) {
+            logger.info("zero = 0");
+        }
+        else {
+            logger.info("zero != 0");
+        }
     }
 }

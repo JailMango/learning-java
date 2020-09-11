@@ -26,7 +26,7 @@ public class CalendaUtils {
      *
      * @param args String[]
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Calendar instance = Calendar.getInstance();
 
         Date before = instance.getTime();
@@ -44,5 +44,12 @@ public class CalendaUtils {
         boolean b2 = before.after(after);
 
         logger.info("CalendaUtils end...");
+
+
+        Date begin = new Date();
+        Thread.sleep(1000);
+        Date end = new Date();
+
+        System.out.println(begin.compareTo(end));
     }
 }
