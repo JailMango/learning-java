@@ -30,13 +30,11 @@ public class 比较含退格的字符串 {
     }
 
     public static boolean backspaceCompare(String S, String T) {
-
+        return false;
     }
 
     /**
-     * 解法1
-     * 时间复杂度 O(M+N)
-     * 空间复杂度 O(M+N)
+     * 解法1 时间复杂度 O(M+N) 空间复杂度 O(M+N)
      */
     public static boolean backspaceCompare1(String S, String T) {
         boolean isSame = true;
@@ -56,7 +54,7 @@ public class 比较含退格的字符串 {
                 break;
             }
             else {
-                if (stackS.pop() != stackT.pop()) {
+                if (!(stackS.pop().equals(stackT.pop()))) {
                     isSame = false;
                     break;
                 }
@@ -67,14 +65,14 @@ public class 比较含退格的字符串 {
     }
 
     private static void transfer(Stack<Character> stack, char[] array) {
-        for (int i = 0; i < array.length; i++) {
-            if ('#' == array[i]) {
+        for (char c : array) {
+            if ('#' == c) {
                 if (!stack.empty()) {
                     stack.pop();
                 }
             }
             else {
-                stack.push(array[i]);
+                stack.push(c);
             }
         }
     }
