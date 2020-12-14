@@ -1,4 +1,4 @@
-package com.jailmango.spring.framework.bean.configuration;
+package com.jailmango.spring.configuration.framework.bean;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
