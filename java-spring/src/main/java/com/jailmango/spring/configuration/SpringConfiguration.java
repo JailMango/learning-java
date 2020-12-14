@@ -13,7 +13,8 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @EnableAutoConfiguration
 @ComponentScan(value = {
-    "com.jailmango.spring.framework.bean.configuration"
+    "com.jailmango.spring.configuration.framework.bean",
+    "com.jailmango.spring.configuration.redis"
 })
 public class SpringConfiguration {
 
