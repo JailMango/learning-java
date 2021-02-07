@@ -30,6 +30,9 @@ public class IfElseCase {
         logger.info("=============================================");
 
         logger.info("{}", calculate());
+
+        logger.info("=============================================");
+        judge();
     }
 
     public static String calculate() {
@@ -45,6 +48,20 @@ public class IfElseCase {
         }
 
         return "0";
+    }
+
+    public static void judge() {
+        int i = -10;
+
+        if (i < -20) {
+            System.out.println("< 0");
+        }
+        else if (i < -1) {
+            System.out.println("< -1");
+        }
+        else if (i < -2) {
+            System.out.println("< -2");
+        }
     }
 
 }
