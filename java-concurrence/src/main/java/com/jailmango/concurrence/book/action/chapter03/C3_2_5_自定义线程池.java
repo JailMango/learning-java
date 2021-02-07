@@ -1,5 +1,6 @@
 package com.jailmango.concurrence.book.action.chapter03;
 
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -39,6 +40,12 @@ public class C3_2_5_自定义线程池 {
         }
 
         Thread.sleep(2000);
+    }
+
+    private static void method() {
+        new ThreadPoolExecutor(5, 5, 0L, TimeUnit.SECONDS, new ArrayBlockingQueue<>(), r -> {
+            Thread
+        });
     }
 
     private static class MyTask implements Runnable {

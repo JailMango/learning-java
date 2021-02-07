@@ -1,6 +1,11 @@
 package com.jailmango.concurrence.book.action.chapter03;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -29,6 +34,11 @@ public class C3_3_4_高效读写队列ConcurrentLinkedQueue {
 //        queue.offer("3");
 
         log.info("end...");
+        
+        
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
+
+        Collections.sort(new ArrayList<String>());
     }
 
 }
