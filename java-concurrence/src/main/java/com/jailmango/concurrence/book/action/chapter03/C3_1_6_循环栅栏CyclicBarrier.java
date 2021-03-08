@@ -33,7 +33,7 @@ public class C3_1_6_循环栅栏CyclicBarrier {
             log.info("士兵{}报道", i);
             allSoldiers[i] = new Thread(new Soldier("士兵" + i, cyclicBarrier));
             if (i == 5) {
-                allSoldiers[0].interrupt();
+                // allSoldiers[0].interrupt();
             }
             allSoldiers[i].start();
         }
@@ -98,6 +98,8 @@ public class C3_1_6_循环栅栏CyclicBarrier {
                 log.info("士兵{}个，集合完毕", N);
                 flag = true;
             }
+
+            log.info("完成任务...重置");
         }
     }
 }
