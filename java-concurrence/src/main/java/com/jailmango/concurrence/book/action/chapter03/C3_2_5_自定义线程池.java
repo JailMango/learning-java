@@ -42,11 +42,13 @@ public class C3_2_5_自定义线程池 {
         Thread.sleep(2000);
     }
 
-    private static void method() {
-        new ThreadPoolExecutor(5, 5, 0L, TimeUnit.SECONDS, new ArrayBlockingQueue<>(), r -> {
-            Thread
-        });
-    }
+//    private static void method() {
+//        new ThreadPoolExecutor(5, 5, 0L, TimeUnit.SECONDS, new ArrayBlockingQueue<>(), r -> {
+//            while (true) {
+//                log.info("doing daemon task...");
+//            }
+//        });
+//    }
 
     private static class MyTask implements Runnable {
 
