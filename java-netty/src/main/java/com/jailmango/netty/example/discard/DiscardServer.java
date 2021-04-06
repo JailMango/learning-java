@@ -68,7 +68,7 @@ public class DiscardServer {
     }
 
     public static void main(String[] args) {
-        new DiscardServer(8080).run();
+        new DiscardServer(8888).run();
     }
 
 }

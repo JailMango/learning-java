@@ -32,7 +32,7 @@ public class SocketServer {
      */
     public static void main(String[] args) throws IOException {
         // 创建绑定到特定端口的服务器套接字
-        ServerSocket serverSocket = new ServerSocket(8080);
+        ServerSocket serverSocket = new ServerSocket(8888);
         logger.info("Server start...");
         // 侦听并接受到此套接字的连接
         Socket socket = serverSocket.accept();
@@ -40,13 +40,10 @@ public class SocketServer {
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         String request = null;
 
-        while ((request = in.readLine()) != null) {
-            logger.info("Server Receive: [{}]", request);
+        while (true) {
+            while ((request = in.readLine()) != null) {
+                logger.info("Server Receive: [{}]", request);
+            }
         }
-
-        // 此套接字的输入流置于"流的末尾"
-        socket.shutdownInput();
-        in.close();
-        logger.info("Server Stop...");
     }
 }

@@ -48,6 +48,7 @@ public final class RedisUtils {
      */
     public void setStringValue(RedisValue value) {
         redisTemplate.opsForValue().set(value.getKey(), value.getValue());
+        redisTemplate.opsForSet()
     }
 
     /**
