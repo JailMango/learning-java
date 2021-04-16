@@ -4,14 +4,9 @@ import java.security.spec.AlgorithmParameterSpec;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
-import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
 
 /**
  * SecurityUtils
@@ -71,7 +66,7 @@ public class SecurityUtils {
     /**
      * base64Decoder
      */
-    static BASE64Decoder base64Decoder = new BASE64Decoder();
+//    static BASE64Decoder base64Decoder = new BASE64Decoder();
 
     static {
         initialDes();
@@ -85,96 +80,96 @@ public class SecurityUtils {
      *         <br>
      */
     private static void initialDes() {
-        try {
-            eCipher = Cipher.getInstance("DES/CBC/PKCS5Padding");
-            dCipher = Cipher.getInstance("DES/CBC/PKCS5Padding");
-
-            bkey = base64Decoder.decodeBuffer("SivnBF2z0IY=");
-            biv = base64Decoder.decodeBuffer("uK1EBgjPTr0=");
-            paramSpec = new IvParameterSpec(biv);
-            keySpec = new SecretKeySpec(bkey, "DES");
-
-            dCipher.init(Cipher.DECRYPT_MODE, keySpec, paramSpec);
-            eCipher.init(Cipher.ENCRYPT_MODE, keySpec, paramSpec);
-        }
-        catch (Exception e) {
-            logger.error(e.getLocalizedMessage());
-        }
+//        try {
+//            eCipher = Cipher.getInstance("DES/CBC/PKCS5Padding");
+//            dCipher = Cipher.getInstance("DES/CBC/PKCS5Padding");
+//
+//            bkey = base64Decoder.decodeBuffer("SivnBF2z0IY=");
+//            biv = base64Decoder.decodeBuffer("uK1EBgjPTr0=");
+//            paramSpec = new IvParameterSpec(biv);
+//            keySpec = new SecretKeySpec(bkey, "DES");
+//
+//            dCipher.init(Cipher.DECRYPT_MODE, keySpec, paramSpec);
+//            eCipher.init(Cipher.ENCRYPT_MODE, keySpec, paramSpec);
+//        }
+//        catch (Exception e) {
+//            logger.error(e.getLocalizedMessage());
+//        }
     }
-
-    /**
-     * 解密
-     *
-     * @param decryptString String <br>
-     * @return String <br>
-     * @throws Exception <br>
-     */
-    public static String decrypt(String decryptString) throws Exception {
-        return SecurityUtils.dESDecrypt(decryptString);
-    }
-
-    /**
-     * 加密
-     *
-     * @param encryptString String
-     * @return String
-     * @throws Exception <br>
-     */
-    public static String encrypt(String encryptString) throws Exception {
-        return SecurityUtils.dESEncrypt(encryptString);
-    }
-
-    /**
-     * 采用DES的CBC模式进行加密，补齐方式为PKCS5Padding
-     * 
-     * @param encryptString <br>
-     * @return <br>
-     */
-    public static String dESEncrypt(String encryptString) {
-        try {
-            byte[] eout = null;
-            synchronized (eCipher) {
-                eout = eCipher.doFinal(encryptString.getBytes(encoding));
-            }
-            return new BASE64Encoder().encode(eout);
-        }
-        catch (Exception e) {
-            synchronized (eCipher) {
-                try {
-                    eCipher.init(Cipher.ENCRYPT_MODE, keySpec, paramSpec);
-                }
-                catch (Exception e1) {
-                    logger.error(e1.getLocalizedMessage());
-                }
-            }
-        }
-        return null;
-    }
-
-    /**
-     * 采用DES的CBC模式进行解密，补齐方式为PKCS5Padding
-     * 
-     * @param decryptString <br>
-     * @return <br>
-     */
-    public static String dESDecrypt(String decryptString) {
-        try {
-            byte[] bout = null;
-            synchronized (dCipher) {
-                bout = dCipher.doFinal(base64Decoder.decodeBuffer(decryptString));
-            }
-            return new String(bout, encoding);
-        }
-        catch (Exception e) {
-            synchronized (dCipher) {
-                try {
-                    dCipher.init(Cipher.DECRYPT_MODE, keySpec, paramSpec);
-                }
-                catch (Exception e1) {
-                    logger.error(e1.getLocalizedMessage());
-                }
-            }
-        }
-        return null;
-    }
+//
+//    /**
+//     * 解密
+//     *
+//     * @param decryptString String <br>
+//     * @return String <br>
+//     * @throws Exception <br>
+//     */
+//    public static String decrypt(String decryptString) throws Exception {
+//        return SecurityUtils.dESDecrypt(decryptString);
+//    }
+//
+//    /**
+//     * 加密
+//     *
+//     * @param encryptString String
+//     * @return String
+//     * @throws Exception <br>
+//     */
+//    public static String encrypt(String encryptString) throws Exception {
+//        return SecurityUtils.dESEncrypt(encryptString);
+//    }
+//
+//    /**
+//     * 采用DES的CBC模式进行加密，补齐方式为PKCS5Padding
+//     *
+//     * @param encryptString <br>
+//     * @return <br>
+//     */
+//    public static String dESEncrypt(String encryptString) {
+//        try {
+//            byte[] eout = null;
+//            synchronized (eCipher) {
+//                eout = eCipher.doFinal(encryptString.getBytes(encoding));
+//            }
+//            return new BASE64Encoder().encode(eout);
+//        }
+//        catch (Exception e) {
+//            synchronized (eCipher) {
+//                try {
+//                    eCipher.init(Cipher.ENCRYPT_MODE, keySpec, paramSpec);
+//                }
+//                catch (Exception e1) {
+//                    logger.error(e1.getLocalizedMessage());
+//                }
+//            }
+//        }
+//        return null;
+//    }
+//
+//    /**
+//     * 采用DES的CBC模式进行解密，补齐方式为PKCS5Padding
+//     *
+//     * @param decryptString <br>
+//     * @return <br>
+//     */
+//    public static String dESDecrypt(String decryptString) {
+//        try {
+//            byte[] bout = null;
+//            synchronized (dCipher) {
+//                bout = dCipher.doFinal(base64Decoder.decodeBuffer(decryptString));
+//            }
+//            return new String(bout, encoding);
+//        }
+//        catch (Exception e) {
+//            synchronized (dCipher) {
+//                try {
+//                    dCipher.init(Cipher.DECRYPT_MODE, keySpec, paramSpec);
+//                }
+//                catch (Exception e1) {
+//                    logger.error(e1.getLocalizedMessage());
+//                }
+//            }
+//        }
+//        return null;
+//    }
 }

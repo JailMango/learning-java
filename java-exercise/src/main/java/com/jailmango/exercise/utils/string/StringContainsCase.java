@@ -23,7 +23,7 @@ public class StringContainsCase {
      * @param args String[]
      */
     public static void main(String[] args) {
-        String filePath = "/Users/mango/Documents/ztesoft/./ztesoft/map.xml";
+        String filePath = "/Users/mango/Documents/re/./re/map.xml";
 
         if (filePath.contains("../")) {
             logger.info("../");

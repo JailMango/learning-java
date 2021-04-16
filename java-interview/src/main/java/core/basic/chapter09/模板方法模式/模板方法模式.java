@@ -1,6 +1,6 @@
 package core.basic.chapter09.模板方法模式;
 
-import com.oracle.tools.packager.Log;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * 模板方法模式
@@ -10,6 +10,7 @@ import com.oracle.tools.packager.Log;
  * @see core.basic.chapter09.模板方法模式
  * @since R9.0
  */
+@Slf4j
 public class 模板方法模式 {
 
     /**
@@ -21,7 +22,7 @@ public class 模板方法模式 {
         AbstractTemplate takeMoney = new TakeMoney();
         takeMoney.templateMethod();
 
-        Log.info("===================");
+        log.info("===================");
 
         AbstractTemplate saveMoney = new SaveMoney();
         saveMoney.templateMethod();
