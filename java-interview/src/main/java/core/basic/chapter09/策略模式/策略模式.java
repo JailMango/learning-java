@@ -1,6 +1,6 @@
 package core.basic.chapter09.策略模式;
 
-import com.oracle.tools.packager.Log;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * 策略模式
@@ -10,6 +10,7 @@ import com.oracle.tools.packager.Log;
  * @see core.basic.chapter09.策略模式
  * @since R9.0
  */
+@Slf4j
 public class 策略模式 {
 
     /**
@@ -24,7 +25,7 @@ public class 策略模式 {
 
         travelContext.setTravelStrategy(air);
         travelContext.travelMode();
-        Log.info("==================");
+        log.info("==================");
         travelContext.setTravelStrategy(car);
         travelContext.travelMode();
     }

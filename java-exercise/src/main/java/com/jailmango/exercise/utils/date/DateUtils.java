@@ -21,6 +21,8 @@ public class DateUtils {
      * @param args String[]
      */
     public static void main(String[] args) {
+        Date early = new Date(0L);
+
         Date now = new Date(1612170180000L);
         long value = now.getTime();
 

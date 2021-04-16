@@ -24,21 +24,21 @@ public class SecurityCase {
      * @param args String[]
      */
     public static void main(String[] args) {
-        try {
-            String ePwd = SecurityUtils.encrypt("zhouwei123");
-            logger.info(ePwd);
-            String dPwd = SecurityUtils.decrypt("gezvqd3CWyI=");
-            logger.info(dPwd);
-
-            CoreKeyProperties coreKeyProperties = new CoreKeyProperties();
-            String privKeyPath = coreKeyProperties.getRsaPrivPath();
-            String privPwd = coreKeyProperties.getRsaPwd();
-
-            logger.info("privKeyPath:[{}]", privKeyPath);
-            logger.info("privPwd:[{}]", privPwd);
-        }
-        catch (Exception e) {
-            logger.error(e.getLocalizedMessage());
-        }
+//        try {
+//            String ePwd = SecurityUtils.encrypt("zhouwei123");
+//            logger.info(ePwd);
+//            String dPwd = SecurityUtils.decrypt("gezvqd3CWyI=");
+//            logger.info(dPwd);
+//
+//            CoreKeyProperties coreKeyProperties = new CoreKeyProperties();
+//            String privKeyPath = coreKeyProperties.getRsaPrivPath();
+//            String privPwd = coreKeyProperties.getRsaPwd();
+//
+//            logger.info("privKeyPath:[{}]", privKeyPath);
+//            logger.info("privPwd:[{}]", privPwd);
+//        }
+//        catch (Exception e) {
+//            logger.error(e.getLocalizedMessage());
+//        }
     }
 }
