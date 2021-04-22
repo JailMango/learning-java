@@ -28,6 +28,7 @@
         <module>logic-programming</module>
         <module>java-interview</module>
         <module>geek-park</module>
+        <module>java-zookeeper</module>
     </modules>
 
     <properties>
@@ -42,6 +43,8 @@
         <learning.version>0.1-SNAPSHOT</learning.version>
         <guava.version>28.1-jre</guava.version>
         <lombok.version>1.18.16</lombok.version>
+        <curator.version>5.1.0</curator.version>
+        <redisson.version>3.15.0</redisson.version>
     </properties>
 
     <dependencyManagement>
@@ -140,6 +143,23 @@
                 <groupId>com.jailmango.learning</groupId>
                 <artifactId>geek-park</artifactId>
                 <version>${learning.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jailmango.learning</groupId>
+                <artifactId>java-zookeeper</artifactId>
+                <version>${learning.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
