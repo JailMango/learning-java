@@ -1,5 +1,12 @@
 package com.jailmango.exercise.java8.ifeve.demo;
 
+import java.util.Date;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 /**
  * Person
  *
@@ -8,6 +15,10 @@ package com.jailmango.exercise.java8.ifeve.demo;
  * @see com.jailmango.exercise.java8.ifeve.demo
  * @since R9.0
  */
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Person {
 
     private String name;
@@ -16,36 +27,5 @@ public class Person {
 
     private int score;
 
-    public Person() {
-
-    }
-
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public int getScore() {
-        return score;
-    }
-
-    public void setScore(int score) {
-        this.score = score;
-    }
+    private Date birth;
 }
