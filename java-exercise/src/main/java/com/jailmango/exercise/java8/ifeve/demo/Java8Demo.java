@@ -24,15 +24,15 @@ public class Java8Demo {
     private static final Logger logger = LoggerFactory.getLogger(Java8Demo.class);
 
     public static void main(String[] args) {
-        List<String> list = Arrays.asList("A", "C", "D", "B", "E");
-        Collections.sort(list, Comparator.naturalOrder());
-        Collections.sort(list, Comparator.reverseOrder());
-
-        PersonFactory<Person> factory = Person::new;
-        Person wx = factory.create("WX", 18);
-        logger.info("Name: [{}], Age: [{}]", wx.getName(), wx.getAge());
-
-        logger.info("end...");
+//        List<String> list = Arrays.asList("A", "C", "D", "B", "E");
+//        Collections.sort(list, Comparator.naturalOrder());
+//        Collections.sort(list, Comparator.reverseOrder());
+//
+//        PersonFactory<Person> factory = Person::new;
+//        Person wx = factory.create("WX", 18);
+//        logger.info("Name: [{}], Age: [{}]", wx.getName(), wx.getAge());
+//
+//        logger.info("end...");
     }
 
 }
