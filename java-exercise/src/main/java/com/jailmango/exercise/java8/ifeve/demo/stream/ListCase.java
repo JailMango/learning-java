@@ -1,14 +1,13 @@
 package com.jailmango.exercise.java8.ifeve.demo.stream;
 
+import com.google.common.collect.Lists;
+import com.jailmango.exercise.java8.ifeve.demo.Person;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.time.DateUtils;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import org.apache.commons.lang3.time.DateUtils;
-
-import lombok.extern.slf4j.Slf4j;
-
-import com.jailmango.exercise.java8.ifeve.demo.Person;
 
 @Slf4j
 /**
@@ -72,6 +71,8 @@ public class ListCase {
         list.add(p3);
         list.add(p4);
         list.add(p5);
+
+        List<List<Person>> partitionResult = Lists.partition(list, 2);
 
         log.info("end...");
     }
