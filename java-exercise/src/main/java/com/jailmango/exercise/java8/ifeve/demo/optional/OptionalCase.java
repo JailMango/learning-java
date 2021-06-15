@@ -1,11 +1,12 @@
 package com.jailmango.exercise.java8.ifeve.demo.optional;
 
-import java.util.Optional;
-import java.util.function.Function;
-import java.util.function.Supplier;
-
-import com.jailmango.exercise.java8.ifeve.demo.Person;
+import lombok.Builder;
+import lombok.Data;
+import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
+
+import java.util.Optional;
+import java.util.function.Supplier;
 
 /**
  * OptionalCase
@@ -47,16 +48,31 @@ public class OptionalCase {
         valuea.ifPresent(integer -> log.info("消费[{}]", integer));
         valueb.ifPresent(integer -> log.info("消费[{}]", integer));
 
-//
-//        Person si = new Person("SiJunHeng", 30);
-//        Person he = null;
+        Person p1 = null;
+        boolean result = Optional.ofNullable(p1).filter(Person::isSuccess).isPresent();
 
+        p1 = Person.builder().success(true).build();
+        result = Optional.ofNullable(p1).filter(Person::isSuccess).isPresent();
 
-
+        log.info("end...");
     }
 
     private static Integer sum(Optional<Integer> a, Optional<Integer> b) {
 
         return 0;
+    }
+
+    @Data
+    @Builder
+    @ToString
+    private static class Person {
+
+        private String name;
+
+        private int age;
+
+        private String sex;
+
+        private boolean success;
     }
 }
