@@ -57,7 +57,9 @@ public class IfElseCase {
             System.out.println("< 0");
         }
         else if (i < -1) {
-            System.out.println("< -1");
+            if (i < -100) {
+                System.out.println("< -1");
+            }
         }
         else if (i < -2) {
             System.out.println("< -2");

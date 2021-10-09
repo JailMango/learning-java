@@ -3,7 +3,9 @@ package com.jailmango.exercise.utils.list;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.function.Consumer;
 
+import com.google.common.collect.Lists;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -77,6 +79,32 @@ public class ListCase {
                 iterator.remove();
             }
         }
+
+        logger.info("====================================");
+
+        List<ElementDto> srcList = Lists.newArrayList();
+        List<ElementDto> destList = Lists.newArrayList();
+
+        for (int i = 0; i < 5; i++) {
+            ElementDto ele = new ElementDto();
+            ele.setName(String.valueOf(i));
+            ele.setSize(i);
+            srcList.add(ele);
+        }
+
+        ElementDto tmp = null;
+        ElementDto ele = null;
+        for (int i = 0; i < srcList.size(); i++) {
+            ele = srcList.get(i);
+
+            tmp = new ElementDto();
+            tmp.setSize(ele.getSize());
+            tmp.setName(ele.getName());
+
+            destList.add(tmp);
+        }
+
+
 
         logger.info("end...");
     }
