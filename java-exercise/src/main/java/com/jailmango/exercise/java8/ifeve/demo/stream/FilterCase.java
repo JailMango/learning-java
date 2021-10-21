@@ -1,15 +1,9 @@
 package com.jailmango.exercise.java8.ifeve.demo.stream;
 
-import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.collections.ListUtils;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * FilterCase
@@ -58,13 +52,11 @@ public class FilterCase {
             result.add(s);
         }
 
-
         list.stream().filter(s -> false);
 
-//        List<String> a = Lists.newArrayList("a1", "b1", "c1");
-//        List<String> a = Lists.newArrayList("a2", "b3", "c4");
+        // List<String> a = Lists.newArrayList("a1", "b1", "c1");
+        // List<String> a = Lists.newArrayList("a2", "b3", "c4");
 
-    
         log.info("end...");
 
     }

@@ -3,15 +3,13 @@ package com.jailmango.exercise.java8.stream;
 import lombok.Builder;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * StreamCase
@@ -69,9 +67,9 @@ public class StreamCase {
         List<Route> result = recommendRoutes.getRoutes().stream().filter(route -> Objects.nonNull(route) && StringUtils.isNotBlank(route.getStrategy())
             && CollectionUtils.isNotEmpty(route.getSearchIds()) && !strategies.contains(route.getStrategy())).collect(Collectors.toList());
 
-        List<String> strings = recommendRoutes.getRoutes().stream()
-            .filter(route -> Objects.nonNull(route) && StringUtils.isNotBlank(route.getStrategy()) && CollectionUtils.isNotEmpty(route.getSearchIds())
-                && !strategies.contains(route.getStrategy()))
+        List<String> strings = recommendRoutes
+            .getRoutes().stream().filter(route -> Objects.nonNull(route) && StringUtils.isNotBlank(route.getStrategy())
+                && CollectionUtils.isNotEmpty(route.getSearchIds()) && !strategies.contains(route.getStrategy()))
             .flatMap(route -> route.getSearchIds().stream()).collect(Collectors.toList());
 
         log.info("{}", strings);
@@ -79,8 +77,7 @@ public class StreamCase {
         log.info("contains empty: {}", !strategies.contains(""));
         log.info("contains null: {}", !strategies.contains(null));
         log.info("contains empty: {}", !new ArrayList<>().contains(""));
-        log.info("contains null: {}",  !new ArrayList<>().contains(null));
-
+        log.info("contains null: {}", !new ArrayList<>().contains(null));
 
         List<String> removeList = new ArrayList<>();
         removeList.add("1");
