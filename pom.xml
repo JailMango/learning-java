@@ -44,9 +44,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <mysql-connector.version>8.0.17</mysql-connector.version>
         <commons.lang3.version>3.9</commons.lang3.version>
-        <learning.version>0.1-SNAPSHOT</learning.version>
         <guava.version>31.0.1-jre</guava.version>
-        <lombok.version>1.18.16</lombok.version>
+        <learning.version>0.1-SNAPSHOT</learning.version>
         <curator.version>5.1.0</curator.version>
         <redisson.version>3.15.0</redisson.version>
         <lettuce.version>6.1.1.RELEASE</lettuce.version>
@@ -175,16 +174,18 @@
                 <version>${redisson.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
-            </dependency>
 
             <dependency>
                 <groupId>io.lettuce</groupId>
                 <artifactId>lettuce-core</artifactId>
                 <version>${lettuce.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -194,6 +195,19 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
         </dependency>
     </dependencies>
 
