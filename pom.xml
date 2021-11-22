@@ -42,13 +42,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+
+        <learning.version>0.1-SNAPSHOT</learning.version>
+
         <commons-collections4.version>4.4</commons-collections4.version>
         <mysql-connector.version>8.0.17</mysql-connector.version>
         <guava.version>31.0.1-jre</guava.version>
-        <learning.version>0.1-SNAPSHOT</learning.version>
         <curator.version>5.1.0</curator.version>
         <redisson.version>3.15.0</redisson.version>
-        <lettuce.version>6.1.1.RELEASE</lettuce.version>
     </properties>
 
     <dependencyManagement>
@@ -168,17 +169,12 @@
                 <artifactId>java-zookeeper</artifactId>
                 <version>${learning.version}</version>
             </dependency>
+
+
             <dependency>
                 <groupId>org.redisson</groupId>
                 <artifactId>redisson-spring-boot-starter</artifactId>
                 <version>${redisson.version}</version>
-            </dependency>
-
-
-            <dependency>
-                <groupId>io.lettuce</groupId>
-                <artifactId>lettuce-core</artifactId>
-                <version>${lettuce.version}</version>
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
@@ -194,6 +190,14 @@
                 <artifactId>commons-collections4</artifactId>
                 <version>${commons-collections4.version}</version>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.78</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
