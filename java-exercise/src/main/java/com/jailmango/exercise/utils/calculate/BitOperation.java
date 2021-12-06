@@ -29,5 +29,10 @@ public class BitOperation {
         for (int i = 1; i < 5; i++) {
             logger.info("左移{}位 -> {}", i, (num1 << i));
         }
+
+
+        int src = 200;
+
+        System.out.println(src << 1);
     }
 }

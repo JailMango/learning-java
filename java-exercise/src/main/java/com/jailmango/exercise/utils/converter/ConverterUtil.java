@@ -1,11 +1,11 @@
 package com.jailmango.exercise.utils.converter;
 
+import org.apache.commons.collections4.CollectionUtils;
+import org.springframework.beans.BeanUtils;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.apache.commons.collections.CollectionUtils;
-import org.springframework.beans.BeanUtils;
 
 /**
  * ConverterUtil
@@ -20,7 +20,8 @@ public class ConverterUtil {
     /**
      * main
      *
-     * @param args String[]
+     * @param args
+     *            String[]
      */
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
         ConverterUtil ins = new ConverterUtil();
@@ -43,8 +44,7 @@ public class ConverterUtil {
         System.out.println(targetList.size());
     }
 
-    protected static <E extends BaseBean, T> List<T> convert(List<E> source, Class<T> clazz)
-        throws IllegalAccessException, InstantiationException {
+    protected static <E extends BaseBean, T> List<T> convert(List<E> source, Class<T> clazz) throws IllegalAccessException, InstantiationException {
         List<T> result = new ArrayList<>();
 
         if (CollectionUtils.isNotEmpty(source)) {
@@ -62,8 +62,7 @@ public class ConverterUtil {
 
         protected String name;
 
-        public BaseBean() {
-        }
+        public BaseBean() {}
 
         public String getName() {
             return name;
@@ -78,8 +77,7 @@ public class ConverterUtil {
 
         private String desc;
 
-        public Source() {
-        }
+        public Source() {}
 
         public Source(String name, String desc) {
             this.name = name;
@@ -99,8 +97,7 @@ public class ConverterUtil {
 
         private String desc;
 
-        public Target() {
-        }
+        public Target() {}
 
         public Target(String name, String desc) {
             this.name = name;
