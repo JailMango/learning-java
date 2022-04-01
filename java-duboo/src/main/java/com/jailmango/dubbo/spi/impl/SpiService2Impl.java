@@ -1,9 +1,9 @@
-package com.jailmango.dubbo.java.spi.impl;
+package com.jailmango.dubbo.spi.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.jailmango.dubbo.java.spi.ISpiService;
+import com.jailmango.dubbo.spi.ISpiService;
 
 /**
  * SpiServiceImpl

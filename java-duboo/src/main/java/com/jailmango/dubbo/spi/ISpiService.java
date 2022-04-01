@@ -1,4 +1,4 @@
-package com.jailmango.dubbo.java.spi;
+package com.jailmango.dubbo.spi;
 
 /**
  * ISpiService
