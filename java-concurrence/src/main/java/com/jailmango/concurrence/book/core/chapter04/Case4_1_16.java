@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * 4.1.16. public boolean hasWaiters(Condition condition)方法的使用 <br/>
  * 查询是否有线程正在等待与此锁有关的condition条件，也就是是否执行了condition.await()而呈等待状态 <br/>
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/7/28
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

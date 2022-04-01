@@ -5,7 +5,7 @@ package com.jailmango.concurrence.book.action.chapter06;
  * 函数式接口只允许定义一个抽象方法。<br/>
  * 强调只能有一个抽象方法，而不是方法。
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/5
  * @see com.jailmango.concurrence.book.action.chapter06
  * @since R9.0

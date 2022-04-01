@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 线程阻塞工具类LockSupport_3_1_7
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/8
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

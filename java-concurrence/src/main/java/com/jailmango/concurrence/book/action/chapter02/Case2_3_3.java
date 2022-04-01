@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * volatile & JMM(可见性和有序性)
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/21
  * @see com.jailmango.concurrence.book.action.chapter02
  * @since R9.0

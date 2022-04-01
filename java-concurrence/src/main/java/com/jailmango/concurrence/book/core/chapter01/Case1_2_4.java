@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_2_4 - 1.2.4 执行start()顺序不代表run()的执行顺序
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-17
  * @see com.jailmango.concurrence.book.core.chapter01
  * @since R9.0

@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 /**
  * IOServer
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-29
  * @see com.jailmango.netty.lightman.chapter01
  * @since R9.0

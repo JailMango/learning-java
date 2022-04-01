@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * ListPartitionCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/11/2
  * @see com.jailmango.exercise.utils.list
  */

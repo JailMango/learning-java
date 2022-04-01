@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C6_5_5_组合多个CompletableFuture
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/11
  * @see com.jailmango.concurrence.book.action.chapter06
  * @since R9.0

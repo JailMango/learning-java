@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C3_10_1_将数据抽象成一个类_将操作封装在类的方法中
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/19
  * @see core.basic.chapter03
  * @since R9.0

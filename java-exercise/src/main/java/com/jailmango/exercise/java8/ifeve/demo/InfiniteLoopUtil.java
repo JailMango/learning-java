@@ -5,7 +5,7 @@ import java.util.function.Supplier;
 /**
  * InfiniteLoopUtil
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.exercise.java8.ifeve.demo
  */
 public final class InfiniteLoopUtil {

@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * MemoryFactory
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/15
  * @see core.basic.chapter09.享元模式
  * @since R9.0

@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 /**
  * NetworkCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/2/18
  * @see com.jailmango.exercise.utils.network
  * @since R9.0

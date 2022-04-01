@@ -3,7 +3,7 @@ package com.jailmango.imooc.design.singleton;
 /**
  * SingletonCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-03-07
  * @see com.jailmango.imooc.design.singleton
  * @since R9.0

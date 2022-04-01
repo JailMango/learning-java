@@ -11,7 +11,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 /**
  * JacksonTest
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018-11-26
  * @see com.jailmango.exercise.utils.jackson
  * @since R9.0<br>

@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * FutureCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-30
  * @see com.jailmango.concurrence.ifeve.thread.future
  * @since R9.0

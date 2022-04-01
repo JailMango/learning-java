@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * DailyExercise
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/18
  * @see com.jailmango.algorithm.geektime
  * @since R9.0

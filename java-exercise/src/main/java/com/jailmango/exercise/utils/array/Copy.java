@@ -3,7 +3,7 @@ package com.jailmango.exercise.utils.array;
 /**
  * Copy
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/2/23
  * @see com.jailmango.exercise.utils.array
  * @since R9.0

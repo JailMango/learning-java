@@ -3,7 +3,7 @@ package com.jailmango.exercise.utils.jvm;
 /**
  * JVM
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/1/11
  * @see com.jailmango.exercise.utils.jvm
  * @since R9.0

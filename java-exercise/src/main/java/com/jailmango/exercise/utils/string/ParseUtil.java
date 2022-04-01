@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * ParseUtil
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/17
  * @see com.jailmango.exercise.utils.string
  * @since R9.0

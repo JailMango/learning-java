@@ -15,7 +15,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 /**
  * WasteTimeHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/12
  * @see com.jailmango.netty.lightman.netty.app.server.handler
  * @since R9.0

@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 判断回文链表 Palindrome List
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/16
  * @see com.jailmango.algorithm.geektime
  * @since R9.0

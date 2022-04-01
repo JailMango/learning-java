@@ -3,7 +3,7 @@ package com.jailmango.exercise.utils.javadoc;
 /**
  * JavaDocCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-17
  * @see com.jailmango.exercise.utils.javadoc
  * @since R9.0

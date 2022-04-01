@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C6_1_3_声明式
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/5
  * @see com.jailmango.concurrence.book.action.chapter06
  * @since R9.0

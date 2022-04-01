@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 876. 链表的中间节点
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/18
  * @see com.jailmango.algorithm.geektime
  * @since R9.0

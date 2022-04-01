@@ -3,7 +3,7 @@ package com.jailmango.imooc.design.principal.openclose;
 /**
  * JavaDiscountCourse
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-02-27
  * @see com.jailmango.imooc.design.principal.openclose
  * @since R9.0

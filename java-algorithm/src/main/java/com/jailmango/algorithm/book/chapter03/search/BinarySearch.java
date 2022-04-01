@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * BinarySearch
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/11/5
  * @see com.jailmango.algorithm.book.chapter03.search
  * @since R9.0

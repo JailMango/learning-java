@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 /**
  * RegexCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-15
  * @see com.jailmango.exercise.utils.regex
  * @since R9.0

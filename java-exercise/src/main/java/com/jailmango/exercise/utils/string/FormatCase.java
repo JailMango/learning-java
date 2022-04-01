@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * FormatCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/7/17
  * @see com.jailmango.exercise.utils.string
  * @since R9.0

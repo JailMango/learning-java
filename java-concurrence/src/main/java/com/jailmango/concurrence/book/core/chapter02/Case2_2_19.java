@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_2_19 - 2.2.19 多线程死锁
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-29
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

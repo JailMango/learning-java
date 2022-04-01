@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * RedissonManager
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/2/24
  * @see com.jailmango.spring.boot.redis.redisson
  * @since R9.0

@@ -18,7 +18,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * RedisTemplateConfiguration
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-28
  * @see com.jailmango.java.spring.boot.redis.configuration
  * @since R9.0

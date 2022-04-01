@@ -8,7 +8,7 @@ import com.jailmango.rmi.service.IUserService;
 /**
  * UserServiceImpl
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-04
  * @see com.jailmango.rmi.server.service.impl
  * @since R9.0

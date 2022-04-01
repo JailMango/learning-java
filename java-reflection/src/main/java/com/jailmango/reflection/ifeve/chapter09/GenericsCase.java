@@ -14,7 +14,7 @@ import com.jailmango.reflection.ifeve.dto.GenericsDto;
 /**
  * GenericsCase - 泛型
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-19
  * @see com.jailmango.reflection.ifeve.chapter09
  * @since R9.0

@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  * 在不延时的情况下，如果任务没有被延时执行，则下一次执行任务的开始时间是上一次任务的开始时间 + period <br/>
  * "不延时"是指执行任务的时间小于period间隔时间
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/17
  * @see com.jailmango.concurrence.book.core.chapter05
  * @since R9.0

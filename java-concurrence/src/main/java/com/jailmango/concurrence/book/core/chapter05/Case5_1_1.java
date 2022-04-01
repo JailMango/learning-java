@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  * TimerThread线程不销毁的原因: 创建Timer对象时启动了一个新的非守护线程 <br/>
  * (1) 若执行时间晚于当前时间 - 在未来执行
  * (2) 若执行时间早于当前时间 - 立即执行
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/17
  * @see com.jailmango.concurrence.book.core.chapter05
  * @since R9.0

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_1_19_3 - 3.1.19 - 3. 多生产者多消费者: 操作值(假死) 解决Case3_1_19_2假死问题
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-04
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * SleepDontReleaseMonitor <br/>
  * sleep()不释放synchronized的monitor,等sleep时间到了以后，正常结束之后才释放锁
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/6/4
  * @see com.jailmango.concurrence.imooc.course.basic.threadobjectclasscommonmethod
  * @since R9.0

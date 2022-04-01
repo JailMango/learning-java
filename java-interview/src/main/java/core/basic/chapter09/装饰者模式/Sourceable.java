@@ -3,7 +3,7 @@ package core.basic.chapter09.装饰者模式;
 /**
  * Sourceable
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/13
  * @see core.basic.chapter09.装饰者模式
  * @since R9.0

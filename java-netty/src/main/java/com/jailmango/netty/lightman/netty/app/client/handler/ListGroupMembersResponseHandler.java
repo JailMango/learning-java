@@ -15,7 +15,7 @@ import com.jailmango.netty.lightman.netty.app.session.Session;
 /**
  * ListGroupMembersResponseHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/11/25
  * @see com.jailmango.netty.lightman.netty.app.client.handler
  * @since R9.0

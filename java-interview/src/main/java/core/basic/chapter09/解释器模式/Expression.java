@@ -3,7 +3,7 @@ package core.basic.chapter09.解释器模式;
 /**
  * Expression
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/18
  * @see core.basic.chapter09.解释器模式
  * @since R9.0

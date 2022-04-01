@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * StringAndHex - 字符串与16进制转换
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-03
  * @see com.jailmango.exercise.utils.string
  * @since R9.0<br>

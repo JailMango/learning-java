@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * RedisUserDto
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-28
  * @see com.jailmango.java.spring.boot.redis.model
  * @since R9.0

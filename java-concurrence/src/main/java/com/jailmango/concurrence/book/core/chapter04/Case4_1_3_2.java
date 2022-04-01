@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case4_1_3_2 - 4.1.3 await()方法的错误使用与更正
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/1/6
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

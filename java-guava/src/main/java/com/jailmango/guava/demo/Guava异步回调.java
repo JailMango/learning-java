@@ -7,7 +7,7 @@ import java.util.concurrent.Callable;
 /**
  * Guava异步回调
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/10/11
  * @see com.jailmango.guava.demo
  */

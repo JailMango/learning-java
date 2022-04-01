@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 /**
  * CheckManager
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/10/22
  * @see com.jailmango.java.annotation.demo
  * @since R9.0<br>

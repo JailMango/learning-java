@@ -3,7 +3,7 @@ package async.chapter02;
 /**
  * Test
  *
- * @author gang.he2
+ * @author jailmango
  * @see async.chapter02
  */
 public class Test {

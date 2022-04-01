@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 /**
  * NIOFilesWalkFileTreeCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-12
  * @see com.jailmango.nio.ifeve.chapter13
  * @since R9.0

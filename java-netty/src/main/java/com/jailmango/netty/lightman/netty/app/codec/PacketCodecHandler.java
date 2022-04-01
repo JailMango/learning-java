@@ -15,7 +15,7 @@ import com.jailmango.netty.lightman.netty.app.packet.Packet;
 /**
  * PacketCodecHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/9
  * @see com.jailmango.netty.lightman.netty.app.codec
  * @since R9.0

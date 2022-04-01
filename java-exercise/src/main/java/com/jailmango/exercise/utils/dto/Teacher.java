@@ -3,7 +3,7 @@ package com.jailmango.exercise.utils.dto;
 /**
  * Teacher
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-03-28
  * @see com.jailmango.exercise.utils.dto
  * @since R9.0

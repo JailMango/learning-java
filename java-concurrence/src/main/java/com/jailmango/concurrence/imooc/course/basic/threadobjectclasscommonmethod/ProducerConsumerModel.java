@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * ProducerConsumerModel <br/>
  * 生产者消费者模式，用wait/notify实现
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/5/2
  * @see com.jailmango.concurrence.imooc.course.basic.threadobjectclasscommonmethod
  * @since R9.0

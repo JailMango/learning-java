@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 /**
  * C2_1_显示的使用
  *
- * @author gang.he2
+ * @author jailmango
  * @see async.chapter02
  */
 @Slf4j

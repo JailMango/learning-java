@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * Chapter5-4 <br/>
  * run()方法内有sleep()或wait()方法时，停止线程
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/15
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0

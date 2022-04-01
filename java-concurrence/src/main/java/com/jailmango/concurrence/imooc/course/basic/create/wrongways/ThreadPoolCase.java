@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * ThreadPoolCase <br/>
  * 用线程池创建线程，从本质上看，并不是一种新的创建线程的方式
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/13
  * @see com.jailmango.concurrence.imooc.course.basic.create.wrongways
  * @since R9.0

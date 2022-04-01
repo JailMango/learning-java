@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C5_10_3_使用NIO实现客户端
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/4
  * @see com.jailmango.concurrence.book.action.chapter05
  * @since R9.0

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_1_11 - 3.1.11 notify()方法，不立即释放锁，见Case3_1_6
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-03
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

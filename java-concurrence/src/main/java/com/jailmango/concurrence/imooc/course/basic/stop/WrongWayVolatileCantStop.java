@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
  * 本示例失败的原因是：因为使用了阻塞队列，生产者可能被阻塞在 storage.put(num); <br/>
  * 有可能无法被唤醒，即使更改了volatile变量的值，也无法进行再次判断
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/19
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0

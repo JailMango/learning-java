@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * IdeaLiveTemplates
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-03
  * @see com.jailmango.exercise.utils.idea
  * @since R9.0<br>

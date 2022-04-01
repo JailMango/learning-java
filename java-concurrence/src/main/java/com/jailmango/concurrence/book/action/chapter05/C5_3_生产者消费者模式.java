@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C5_3_生产者消费者模式
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/21
  * @see com.jailmango.concurrence.book.action.chapter05
  * @since R9.0

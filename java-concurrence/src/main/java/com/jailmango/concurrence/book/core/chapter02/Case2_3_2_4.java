@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_3_2_4 - 2.3.2 - 4. 使用Atomic原子类进行i++操作实现原子性
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-30
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

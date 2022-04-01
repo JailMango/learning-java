@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C5_10_1_NIO
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/1
  * @see com.jailmango.concurrence.book.action.chapter05
  * @since R9.0

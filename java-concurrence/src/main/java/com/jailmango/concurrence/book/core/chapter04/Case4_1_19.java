@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
  * 4.1.19 public boolean isLocked()的使用<br/>
  * 查询此锁是否由任意线程保持，并没有释放
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/3
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

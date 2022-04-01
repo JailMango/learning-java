@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 /**
  * FrequenceAccessor
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/12/2
  * @see com.jailmango.spring.application.accessor
  */

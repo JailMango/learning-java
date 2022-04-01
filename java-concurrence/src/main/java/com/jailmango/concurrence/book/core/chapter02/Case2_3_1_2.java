@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_3_1_2 - 2.3.1 - 2. 使用多线程解决死循环 解决2.3.1.1的问题
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-29
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

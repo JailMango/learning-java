@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * Task
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.concurrence.book.async.chapter02
  */
 @Slf4j

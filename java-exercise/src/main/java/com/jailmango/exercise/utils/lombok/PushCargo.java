@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * PushCargo
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/10/18
  * @see com.jailmango.exercise.utils.lombok
  */

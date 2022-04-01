@@ -13,7 +13,7 @@ import com.jailmango.netty.lightman.netty.app.packet.request.MessageRequestPacke
 /**
  * SendToUserCommand
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/26
  * @see com.jailmango.netty.lightman.netty.app.client.console.impl
  * @since R9.0

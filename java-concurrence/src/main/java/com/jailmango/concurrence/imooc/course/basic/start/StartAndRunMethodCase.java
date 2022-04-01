@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * StartAndRunMethodCase <br/>
  * 比较start()和run()
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/14
  * @see com.jailmango.concurrence.imooc.course.basic.start
  * @since R9.0

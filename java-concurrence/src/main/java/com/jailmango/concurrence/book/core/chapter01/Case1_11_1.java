@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_11_1 - 1.11.1 停止不了的线程
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-21
  * @see com.jailmango.concurrence.book.core.chapter01
  * @since R9.0

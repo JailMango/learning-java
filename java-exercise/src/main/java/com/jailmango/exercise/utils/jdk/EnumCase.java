@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 /**
  * EnumCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/23
  * @see com.jailmango.exercise.utils.jdk
  * @since R9.0

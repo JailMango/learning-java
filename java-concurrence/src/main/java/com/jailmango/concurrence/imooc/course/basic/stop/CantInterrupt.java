@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * Chapter5-5 <br/>
  * 如果while(){}里面放try-catch，会导致中断失效，sleep()会清空interrupt中断标记位
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/15
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0

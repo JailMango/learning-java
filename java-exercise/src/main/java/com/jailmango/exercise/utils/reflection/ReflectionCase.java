@@ -10,7 +10,7 @@ import org.springframework.util.ReflectionUtils;
 /**
  * ReflectionCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018-11-22
  * @see com.jailmango.exercise.utils.reflection
  * @since R9.0<br>

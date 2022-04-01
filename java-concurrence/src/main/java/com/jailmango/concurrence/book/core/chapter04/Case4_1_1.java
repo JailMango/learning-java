@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case4_1_1 - 4.1.1 使用ReentrantLock实现同步
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/26
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * GenericsDto
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-19
  * @see com.jailmango.reflection.ifeve.dto
  * @since R9.0

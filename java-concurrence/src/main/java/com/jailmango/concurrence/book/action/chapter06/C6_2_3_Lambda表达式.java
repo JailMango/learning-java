@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C6_2_3_Lambda表达式
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/5
  * @see com.jailmango.concurrence.book.action.chapter06
  * @since R9.0

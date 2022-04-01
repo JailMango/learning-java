@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * IfElseCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-26
  * @see com.jailmango.exercise.utils.if_else
  * @since R9.0

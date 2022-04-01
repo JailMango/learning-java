@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 /**
  * NumberUtils
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/12/3
  * @see com.jailmango.spring.application.utils
  */

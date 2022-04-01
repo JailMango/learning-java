@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 2.2.6 等待线程结束(join)和谦让(yield)
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/18
  * @see com.jailmango.concurrence.book.action.chapter02
  * @since R9.0

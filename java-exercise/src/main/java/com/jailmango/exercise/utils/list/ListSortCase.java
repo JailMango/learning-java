@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * ListSortCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/8/24
  * @see com.jailmango.exercise.utils.list
  * @since R9.0

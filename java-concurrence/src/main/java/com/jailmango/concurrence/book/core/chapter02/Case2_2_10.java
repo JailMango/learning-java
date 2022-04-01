@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_2_10 - 2.2.10 方法是被随机调用的
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-24
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

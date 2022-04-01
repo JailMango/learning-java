@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * FileChannelTruncateCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-09
  * @see com.jailmango.nio.ifeve.chapter07
  * @since R9.0

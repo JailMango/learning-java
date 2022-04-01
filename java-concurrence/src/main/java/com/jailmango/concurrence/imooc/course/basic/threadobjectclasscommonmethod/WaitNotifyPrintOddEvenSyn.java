@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * 用两个线程交替打印0~100的奇偶数，用synchronized关键字实现 <br/>
  * 本例实现方式不好，会有很多无用的循环判断
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/5/2
  * @see com.jailmango.concurrence.imooc.course.basic.threadobjectclasscommonmethod
  * @since R9.0

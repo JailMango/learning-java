@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * FilterCase
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.exercise.java8.ifeve.demo.stream
  */
 @Slf4j

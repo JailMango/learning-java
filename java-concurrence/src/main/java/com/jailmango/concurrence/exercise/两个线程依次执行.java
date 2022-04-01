@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
  * 线程间通信 <br/>
  * B在A全部打印完后再开始打印
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/2/25
  * @see com.jailmango.concurrence.exercise
  * @since R9.0

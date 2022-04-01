@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C3_1_3_通过ExecutorService和Callable实现有返回值的线程
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/17
  * @see core.basic.chapter03
  * @since R9.0

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_2_17 - 2.2.17 String常量池特性与同步相关的问题与解决方案
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-28
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

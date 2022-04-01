@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_4_isAlive - 1.3之后的方法实例
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-21
  * @see com.jailmango.concurrence.book.core.chapter01
  * @since R9.0

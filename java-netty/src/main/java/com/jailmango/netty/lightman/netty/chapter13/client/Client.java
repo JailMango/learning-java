@@ -15,7 +15,7 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 /**
  * Client
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-13
  * @see com.jailmango.netty.lightman.netty.chapter13.client
  * @since R9.0

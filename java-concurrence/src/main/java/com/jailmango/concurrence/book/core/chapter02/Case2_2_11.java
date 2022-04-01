@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_2_11 - 不同步(即线程不安全)导致出现的错误 - 模拟错误示例
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-24
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

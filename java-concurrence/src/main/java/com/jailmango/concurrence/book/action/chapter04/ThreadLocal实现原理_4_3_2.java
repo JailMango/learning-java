@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * ThreadLocal实现原理_4_3_2
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/12
  * @see com.jailmango.concurrence.book.action.chapter04
  * @since R9.0

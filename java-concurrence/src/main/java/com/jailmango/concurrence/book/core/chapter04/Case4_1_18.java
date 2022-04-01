@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * 4.1.18. public boolean isHeldByCurrentThread()方法的使用 <br/>
  * 作用是查询当前线程是否保持此锁 <br/>
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/3
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

@@ -3,7 +3,7 @@ package com.jailmango.exercise.utils.operator;
 /**
  * LogicalOperator
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/14
  * @see com.jailmango.exercise.utils.operator
  * @since R9.0

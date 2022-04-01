@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * ArrayCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-10
  * @see com.jailmango.exercise.utils.array
  * @since R9.0

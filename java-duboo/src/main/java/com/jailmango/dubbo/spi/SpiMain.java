@@ -1,11 +1,11 @@
-package com.jailmango.dubbo.java.spi;
+package com.jailmango.dubbo.spi;
 
 import java.util.ServiceLoader;
 
 /**
  * SpiMain
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/10/28
  * @see com.jailmango.dubbo.java.spi
  * @since R9.0

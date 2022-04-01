@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
  * 2.7 线程安全的概念和synchronized关键字 <br/>
  * volatile只可保证可见性，无法保证线程安全
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/28
  * @see com.jailmango.concurrence.book.action.chapter02
  * @since R9.0

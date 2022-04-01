@@ -14,7 +14,7 @@ import com.jailmango.spring.boot.redis.service.IRedisService;
 /**
  * RedisController
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-25
  * @see com.jailmango.java.spring.boot.redis.controller
  * @since R9.0

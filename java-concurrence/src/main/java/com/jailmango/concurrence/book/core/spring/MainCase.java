@@ -11,7 +11,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 /**
  * MainCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018-11-23
  * @see com.jailmango.java.book.core.spring
  * @since R9.0<br>

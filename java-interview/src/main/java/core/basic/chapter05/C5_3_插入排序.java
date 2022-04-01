@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C5_3_插入排序
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/27
  * @see core.basic.chapter05
  * @since R9.0

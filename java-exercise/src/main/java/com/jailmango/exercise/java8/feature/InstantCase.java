@@ -7,7 +7,7 @@ import java.time.Instant;
 /**
  * InstantCase
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.exercise.java8.feature
  */
 @Slf4j

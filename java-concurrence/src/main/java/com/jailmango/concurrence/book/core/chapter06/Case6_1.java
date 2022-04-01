@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * 6.1 立即加载/饿汉模式 <br/>
  * 指使用类的时候已经将对象创建完毕，常见的实现办法是直接用new实例化
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/18
  * @see com.jailmango.concurrence.book.core.chapter06
  * @since R9.0

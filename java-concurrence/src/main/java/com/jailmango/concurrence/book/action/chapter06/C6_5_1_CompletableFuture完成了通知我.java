@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C6_5_1_CompletableFuture完成了通知我
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/10
  * @see com.jailmango.concurrence.book.action.chapter06
  * @since R9.0

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_14_4 - 1.14.4
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-22
  * @see com.jailmango.concurrence.book.core.chapter01
  * @since R9.0

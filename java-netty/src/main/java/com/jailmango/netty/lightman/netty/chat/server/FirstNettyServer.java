@@ -14,7 +14,7 @@ import com.jailmango.netty.lightman.netty.chat.server.handler.FirstServerHandler
 /**
  * NettyServer
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-31
  * @see com.jailmango.netty.lightman.netty
  * @since R9.0

@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * ColleagueTenant
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/18
  * @see core.basic.chapter09.中介者模式
  * @since R9.0

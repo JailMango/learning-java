@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 7.7.2 使用setUncaughtExceptionHandler()方法进行异常处理
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/10
  * @see com.jailmango.concurrence.book.core.chapter07
  * @since R9.0

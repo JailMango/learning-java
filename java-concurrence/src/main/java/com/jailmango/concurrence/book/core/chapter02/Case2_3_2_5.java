@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_3_2_5 - 2.3.2 - 5. 出现的逻辑混乱
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-31
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

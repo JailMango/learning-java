@@ -3,7 +3,7 @@ package com.jailmango.exercise.utils.bit;
 /**
  * BitOperCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/28
  * @see com.jailmango.exercise.utils.bit
  * @since R9.0

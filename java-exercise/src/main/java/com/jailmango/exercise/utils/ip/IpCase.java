@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * IpCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-03-06
  * @see com.jailmango.exercise.utils.ip
  * @since R9.0

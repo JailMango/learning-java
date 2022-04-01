@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
  * 4.1.20 public void lockInterruptibly()方法的使用 <br/>
  * 当某个线程尝试获得锁并且阻塞在lockInterruptibly()方法时，该线程可以被中断
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/12
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

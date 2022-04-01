@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * HashMap的线程安全问题
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/28
  * @see com.jailmango.concurrence.book.action.chapter02
  * @since R9.0

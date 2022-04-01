@@ -3,7 +3,7 @@ package core.basic.chapter09.单例模式;
 /**
  * 单例模式 - 双重锁检查
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/9
  * @see core.basic.chapter09.单例模式
  * @since R9.0

@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 有关死锁的问题_4_5
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/14
  * @see com.jailmango.concurrence.book.action.chapter04
  * @since R9.0

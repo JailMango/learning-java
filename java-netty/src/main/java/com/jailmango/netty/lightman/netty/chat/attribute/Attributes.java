@@ -7,7 +7,7 @@ import io.netty.util.AttributeKey;
 /**
  * Attributes
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-09
  * @see com.jailmango.netty.lightman.netty.chat.attribute
  * @since R9.0

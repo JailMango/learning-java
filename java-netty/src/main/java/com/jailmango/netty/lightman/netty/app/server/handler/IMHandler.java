@@ -13,7 +13,7 @@ import com.jailmango.netty.lightman.netty.app.packet.command.Command;
 /**
  * IMHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/10
  * @see com.jailmango.netty.lightman.netty.app.server.handler
  * @since R9.0

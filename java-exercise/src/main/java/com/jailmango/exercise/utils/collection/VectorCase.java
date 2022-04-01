@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 /**
  * VectorCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-08
  * @see com.jailmango.exercise.utils.collection
  * @since R9.0

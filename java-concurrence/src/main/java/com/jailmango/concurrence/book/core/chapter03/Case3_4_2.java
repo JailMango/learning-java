@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_4_2 - 3.4.2 使用InheritableThreadLocal体现值继承特性
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/20
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

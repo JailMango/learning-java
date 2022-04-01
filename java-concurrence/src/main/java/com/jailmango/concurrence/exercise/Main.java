@@ -3,7 +3,7 @@ package com.jailmango.concurrence.exercise;
 /**
  * Main
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/27
  * @see com.jailmango.concurrence.exercise
  * @since R9.0

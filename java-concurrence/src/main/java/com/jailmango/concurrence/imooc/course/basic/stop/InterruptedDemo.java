@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * InterruptedDemo
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/25
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0

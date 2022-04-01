@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * SeqUtils
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-29
  * @see com.jailmango.java.spring.boot.redis.utils
  * @since R9.0

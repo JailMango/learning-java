@@ -8,7 +8,7 @@ import com.google.common.base.Optional;
 /**
  * UsingAndAvoidingNull
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-03-21
  * @see com.jailmango.java.guava.ifeve.chapter01
  * @since R9.0

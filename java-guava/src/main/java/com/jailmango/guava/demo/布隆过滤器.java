@@ -1,15 +1,15 @@
 package com.jailmango.guava.demo;
 
-import java.nio.charset.Charset;
-
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnel;
 import com.google.common.hash.PrimitiveSink;
 
+import java.nio.charset.Charset;
+
 /**
  * 布隆过滤器
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/7
  * @see com.jailmango.guava.demo
  * @since R9.0

@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * TimmerTask <br/>
  * 用定时器创建线程
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/13
  * @see com.jailmango.concurrence.imooc.course.basic.create.wrongways
  * @since R9.0

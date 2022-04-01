@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * BitOperation - 位运算
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-03
  * @see com.jailmango.exercise.utils.calculate
  * @since R9.0<br>

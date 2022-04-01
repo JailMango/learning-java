@@ -3,7 +3,7 @@ package com.jailmango.exercise.utils.security;
 /**
  * CoreKeyProperties
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/3/11
  * @see com.jailmango.exercise.utils.security
  * @since R9.0

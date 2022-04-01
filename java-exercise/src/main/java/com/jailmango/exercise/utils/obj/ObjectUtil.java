@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * ObjectUtil
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/20
  * @see com.jailmango.exercise.utils.obj
  * @since R9.0

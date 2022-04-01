@@ -12,7 +12,7 @@ import io.netty.handler.codec.ByteToMessageDecoder;
 /**
  * PacketDecoder
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/5
  * @see com.jailmango.netty.lightman.netty.app.codec
  * @since R9.0

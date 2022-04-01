@@ -11,7 +11,7 @@ import com.jailmango.netty.lightman.netty.app.packet.response.MessageResponsePac
 /**
  * MessageResponseHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/19
  * @see com.jailmango.netty.lightman.netty.app.client.handler
  * @since R9.0

@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * FileUtilsCase [common-io]
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-16
  * @see com.jailmango.exercise.utils.file
  * @since R9.0

@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 6.4 序列化与反序列化的单例模式
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/31
  * @see com.jailmango.concurrence.book.core.chapter06
  * @since R9.0

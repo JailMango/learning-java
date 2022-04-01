@@ -15,7 +15,7 @@ import com.google.common.util.concurrent.ThreadFactoryBuilder;
 /**
  * CreateThreadPool
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/11/14
  * @see com.jailmango.java.concurrence.ifeve.thread.pool
  * @since R9.0<br>

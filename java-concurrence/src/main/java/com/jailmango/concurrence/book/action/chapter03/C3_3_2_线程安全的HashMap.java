@@ -6,7 +6,7 @@ import java.util.HashMap;
 /**
  * 线程安全的HashMap_3_3_2
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/9
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

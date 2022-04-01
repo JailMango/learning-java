@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 中序遍历二叉树
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/23
  * @see com.jailmango.algorithm.geektime
  * @since R9.0

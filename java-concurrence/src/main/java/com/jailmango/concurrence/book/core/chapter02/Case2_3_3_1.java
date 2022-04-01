@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_3_3_1 - 2.3.3 - 1. 实现代码重排序的测试
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-31
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

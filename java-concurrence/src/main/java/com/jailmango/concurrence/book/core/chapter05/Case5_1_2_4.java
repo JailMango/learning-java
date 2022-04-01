@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  * 调用Timer类中的cancel()方法有时不一定会停止计划任务，即计划任务正常执行 <br/>
  * 原因是Timer类中的cancel()方法，有时并没有正抢到queue锁，所以TimerTask类中的任务正常执行
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/17
  * @see com.jailmango.concurrence.book.core.chapter05
  * @since R9.0

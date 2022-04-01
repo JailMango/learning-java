@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
  * 2.2.3 中断线程 <br/>
  * 自行设置的中断标记位，无法响应wait() sleep()等
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/16
  * @see com.jailmango.concurrence.book.action.chapter02
  * @since R9.0

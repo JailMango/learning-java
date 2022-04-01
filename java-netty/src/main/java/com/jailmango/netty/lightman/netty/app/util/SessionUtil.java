@@ -15,7 +15,7 @@ import com.jailmango.netty.lightman.netty.app.session.Session;
 /**
  * SessionUtil
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/5
  * @see com.jailmango.netty.lightman.netty.app.util
  * @since R9.0

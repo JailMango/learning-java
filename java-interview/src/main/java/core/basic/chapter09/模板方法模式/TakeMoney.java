@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * TakeMoney
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/15
  * @see core.basic.chapter09.模板方法模式
  * @since R9.0

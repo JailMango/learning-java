@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 在线程池中寻找堆栈_3_2_8 - 进阶版
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/9
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

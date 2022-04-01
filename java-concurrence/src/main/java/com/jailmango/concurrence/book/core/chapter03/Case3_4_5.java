@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_4_5 - 3.4.5 子线程有最新的值，父线程仍是旧值
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/25
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

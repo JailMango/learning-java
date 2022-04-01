@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C2_7_2_序列化与反序列化
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/17
  * @see core.basic.chapter02
  * @since R9.0

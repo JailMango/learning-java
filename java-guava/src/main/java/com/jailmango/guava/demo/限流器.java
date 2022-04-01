@@ -5,7 +5,7 @@ import com.google.common.util.concurrent.RateLimiter;
 /**
  * 限流器
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/10/9
  * @see com.jailmango.guava.demo
  */

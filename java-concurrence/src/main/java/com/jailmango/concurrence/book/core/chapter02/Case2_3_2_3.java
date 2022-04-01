@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_3_2_3 - 2.3.2 - 3. 关键字volatile int i++的非原子特性
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-30
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

@@ -8,7 +8,7 @@ import net.sf.cglib.proxy.MethodProxy;
 /**
  * CglibProxy
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/11/12
  * @see com.jailmango.java.proxy.entertainment.dynamic.cglib
  * @since R9.0<br>

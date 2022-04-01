@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  * TimerTask类中的cancel()方法，将TimerTask自身从任务队列中消除，其他任务不受影响 <br/>
  * Timer类中的cancel()方法，与TimerTask.cancel()方法不同，该方法是将任务队列中的任务全部清空
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/17
  * @see com.jailmango.concurrence.book.core.chapter05
  * @since R9.0

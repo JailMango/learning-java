@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 /**
  * CollectionsCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/11/5
  * @see com.jailmango.jdk.source.interview.basic
  * @since R9.0

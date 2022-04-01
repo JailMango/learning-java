@@ -12,7 +12,7 @@ import com.google.common.collect.ImmutableList;
 /**
  * ArrayList
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/3/8
  * @see com.jailmango.concurrence.stream
  * @since R9.0

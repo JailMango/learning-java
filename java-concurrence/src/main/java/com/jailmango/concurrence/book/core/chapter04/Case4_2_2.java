@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
  * 总结 <br/>
  * 读写互斥，写读互斥，写写互斥，读读异步！！！！
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/13
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

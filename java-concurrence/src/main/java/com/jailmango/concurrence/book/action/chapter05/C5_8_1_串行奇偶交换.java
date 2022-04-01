@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C5_8_1_串行奇偶交换
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/27
  * @see com.jailmango.concurrence.book.action.chapter05
  * @since R9.0

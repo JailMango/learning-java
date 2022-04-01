@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * SynchronizedCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/16
  * @see com.jailmango.concurrence.book.action.extra
  * @since R9.0

@@ -11,7 +11,7 @@ import com.typesafe.config.ConfigFactory;
 /**
  * C7_7_Inbox消息收件箱
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/14
  * @see com.jailmango.concurrence.book.action.chapter07
  * @since R9.0

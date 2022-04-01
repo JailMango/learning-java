@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * Case3_2_5 - 3.2.5 join()方法后面的代码提前运行 - 出现意外
  * 输出结果不确定，有问题
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/19
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

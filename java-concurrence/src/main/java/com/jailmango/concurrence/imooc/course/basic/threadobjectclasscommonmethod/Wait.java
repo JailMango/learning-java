@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
  * 1. 研究代码执行顺序 <br/>
  * 2. 证明wait()是释放锁的 <br/>
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/5/2
  * @see com.jailmango.concurrence.imooc.course.basic.threadobjectclasscommonmethod
  * @since R9.0

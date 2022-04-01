@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * 本例中有3个线程，线程1和线程2首先被阻塞，线程3使用notify()和notifyAll()唤醒他们 <br/>
  * start()先执行，不代表线程先启动 <br/>
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/5/2
  * @see com.jailmango.concurrence.imooc.course.basic.threadobjectclasscommonmethod
  * @since R9.0

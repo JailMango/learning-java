@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 /**
  * ProvStringSplit
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-23
  * @see com.jailmango.exercise.utils.string
  * @since R9.0

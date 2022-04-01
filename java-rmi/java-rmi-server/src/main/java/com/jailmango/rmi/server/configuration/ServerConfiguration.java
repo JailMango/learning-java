@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * RmiServerConfiguration
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-04
  * @see com.jailmango.rmi.server.configuration
  * @since R9.0

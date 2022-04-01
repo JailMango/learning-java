@@ -7,7 +7,7 @@ import lombok.Data;
 /**
  * LogoutResponsePacket
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/26
  * @see com.jailmango.netty.lightman.netty.app.packet.response
  * @since R9.0

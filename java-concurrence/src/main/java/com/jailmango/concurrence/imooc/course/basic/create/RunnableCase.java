@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * RunnableCase <br/>
  * 用Runnable方式创建线程
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/13
  * @see com.jailmango.concurrence.imooc.course.basic.create
  * @since R9.0

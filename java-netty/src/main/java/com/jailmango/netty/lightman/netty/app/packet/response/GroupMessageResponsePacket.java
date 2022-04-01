@@ -8,7 +8,7 @@ import com.jailmango.netty.lightman.netty.app.packet.command.Command;
 /**
  * GroupMessageResponsePacket
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/5
  * @see com.jailmango.netty.lightman.netty.app.packet.response
  * @since R9.0

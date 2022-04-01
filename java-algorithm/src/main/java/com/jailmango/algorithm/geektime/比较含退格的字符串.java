@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 844. 比较含退格的字符串
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/28
  * @see com.jailmango.algorithm.geektime
  * @since R9.0

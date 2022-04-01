@@ -12,7 +12,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 /**
  * FirstServerHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-05
  * @see com.jailmango.netty.lightman.netty
  * @since R9.0

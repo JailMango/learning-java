@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 6.6 使用Enum枚举类型实现单例模式
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/31
  * @see com.jailmango.concurrence.book.core.chapter06
  * @since R9.0

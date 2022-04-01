@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * Pretty
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/2/18
  * @see com.jailmango.exercise.utils.pretty
  * @since R9.0

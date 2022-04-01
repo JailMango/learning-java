@@ -3,7 +3,7 @@ package com.jailmango.jdk.source.interview.basic;
 /**
  * PersonDto
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/11/5
  * @see com.jailmango.jdk.source.interview.basic
  * @since R9.0

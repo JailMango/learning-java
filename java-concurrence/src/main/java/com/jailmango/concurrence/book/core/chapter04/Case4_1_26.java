@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * 4.1.26 public void awaitUninterruptibly()方法的使用 <br/>
  * 作用是实现在线程等待过程中，不允许被中断
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/13
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 3.1.3 公平锁
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/30
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

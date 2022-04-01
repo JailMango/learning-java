@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 4.1.27 实现线程按顺序执行
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/13
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

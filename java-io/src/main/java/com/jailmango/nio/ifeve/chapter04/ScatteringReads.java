@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * ScatteringReads
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-03
  * @see com.jailmango.nio.ifeve.chapter04
  * @since R9.0

@@ -3,7 +3,7 @@ package com.jailmango.annotation;
 /**
  * SuperMan
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/10/18
  * @see com.jailmango.java.annotation
  * @since R9.0<br>

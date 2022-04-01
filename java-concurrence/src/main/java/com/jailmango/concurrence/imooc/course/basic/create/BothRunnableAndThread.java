@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * BothRunnableAndThread <br/>
  * 同时使用Runnable和Thread
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/13
  * @see com.jailmango.concurrence.imooc.course.basic.create
  * @since R9.0

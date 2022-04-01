@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Pool
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.concurrence.exercise
  */
 @Slf4j

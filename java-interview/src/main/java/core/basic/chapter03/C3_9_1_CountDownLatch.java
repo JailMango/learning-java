@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C3_9_1_CountDownLatch
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/19
  * @see core.basic.chapter03
  * @since R9.0

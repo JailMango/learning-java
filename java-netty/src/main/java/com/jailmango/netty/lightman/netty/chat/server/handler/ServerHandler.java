@@ -17,7 +17,7 @@ import com.jailmango.netty.lightman.netty.chat.packet.response.MessageResponsePa
 /**
  * ServerHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-08
  * @see com.jailmango.netty.lightman.netty.chat.server
  * @since R9.0

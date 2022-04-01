@@ -3,7 +3,7 @@ package com.jailmango.concurrence.book.action.chapter02;
 /**
  * 线程状态
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/18
  * @see com.jailmango.concurrence.book.action.chapter02
  * @since R9.0

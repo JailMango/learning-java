@@ -3,7 +3,7 @@ package core.basic.chapter09.单例模式;
 /**
  * 懒汉模式 - 线程安全
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/8
  * @see core.basic.chapter09.单例模式
  * @since R9.0

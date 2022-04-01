@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
  * 线程间通信 <br/>
  * A在打印完1后，再让B打印1, 2, 3，最后再回到A继续打印2, 3
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/2/25
  * @see com.jailmango.concurrence.exercise
  * @since R9.0

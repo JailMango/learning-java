@@ -5,7 +5,7 @@ import java.io.IOException;
 /**
  * DatagramChannelClientCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-09
  * @see com.jailmango.nio.ifeve.chapter10
  * @since R9.0

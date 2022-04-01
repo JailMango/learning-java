@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * ChannelToChannel
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-04
  * @see com.jailmango.nio.ifeve.chapter05
  * @since R9.0

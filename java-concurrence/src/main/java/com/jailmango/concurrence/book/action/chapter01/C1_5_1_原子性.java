@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 1.5.1 原子性
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/14
  * @see com.jailmango.concurrence.book.action.chapter01
  * @since R9.0

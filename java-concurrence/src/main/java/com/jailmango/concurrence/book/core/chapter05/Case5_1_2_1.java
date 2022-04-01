@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 5.1.2 schedule(TimerTask, Date firstTime, long period)方法 <br/>
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/17
  * @see com.jailmango.concurrence.book.core.chapter05
  * @since R9.0

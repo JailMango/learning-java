@@ -10,7 +10,7 @@ import java.util.Optional;
 /**
  * OptionalCase
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.exercise.java8.stream
  */
 @Slf4j

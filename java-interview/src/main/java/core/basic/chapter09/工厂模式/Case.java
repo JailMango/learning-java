@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 工厂模式Case
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/8
  * @see core.basic.chapter09.工厂模式
  * @since R9.0

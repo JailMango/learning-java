@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
  * Case4_1_2 - 4.1.2 验证多代码块间的同步性 此示例说明不管在一个方法还是多个方法的环境中，哪个线程持有锁，哪个线程就执行业务
  * 其他线程只有等待锁被释放时再次争抢，抢到锁就开始执行业务，运行效果和使用synchronized一样
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/26
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

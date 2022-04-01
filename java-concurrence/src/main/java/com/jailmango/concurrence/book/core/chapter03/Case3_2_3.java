@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_2_3 - 3.2.3 join(long)方法的使用
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/18
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

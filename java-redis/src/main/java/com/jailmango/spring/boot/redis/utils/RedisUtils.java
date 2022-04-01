@@ -13,7 +13,7 @@ import com.jailmango.spring.boot.redis.model.RedisValue;
 /**
  * RedisUtils
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-28
  * @see com.jailmango.java.spring.boot.redis.utils
  * @since R9.0

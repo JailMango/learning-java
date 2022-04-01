@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 本例展示AtomicReference中的cas操作的缺陷(即某些场景下不符合序曲)
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/12
  * @see com.jailmango.concurrence.book.action.chapter04
  * @since R9.0

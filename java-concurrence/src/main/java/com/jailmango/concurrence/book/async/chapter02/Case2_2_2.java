@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  * 2.2.1 - 显式使用线程池 <br/>
  * 向线程池提交Callable类型的任务，可获取其执行结果
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.concurrence.book.async.chapter02
  */
 @Slf4j

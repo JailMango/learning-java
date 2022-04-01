@@ -3,7 +3,7 @@ package com.jailmango.exercise.utils.number;
 /**
  * LongDto
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-01
  * @see com.jailmango.exercise.utils.number
  * @since R9.0

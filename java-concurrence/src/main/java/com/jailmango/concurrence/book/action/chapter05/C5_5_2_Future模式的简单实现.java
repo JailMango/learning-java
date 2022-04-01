@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C5_5_2_Future模式的简单实现
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/23
  * @see com.jailmango.concurrence.book.action.chapter05
  * @since R9.0

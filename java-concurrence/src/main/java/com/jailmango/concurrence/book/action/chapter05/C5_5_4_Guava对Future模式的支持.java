@@ -13,7 +13,7 @@ import com.google.common.util.concurrent.MoreExecutors;
 /**
  * C5_5_4_Guava对Future模式的支持
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/26
  * @see com.jailmango.concurrence.book.action.chapter05
  * @since R9.0

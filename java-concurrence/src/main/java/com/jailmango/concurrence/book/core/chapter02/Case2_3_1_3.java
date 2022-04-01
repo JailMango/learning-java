@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_3_1_3 - 2.3.1 - 3. 使用多线程可能出现死循环
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-30
  * @see com.jailmango.concurrence.book.core.chapter01
  * @since R9.0

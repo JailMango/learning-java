@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_3_1_5_1 - 2.3.1 - 5. synchronized{}代码块具有增加可见性的作用(反例)
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-30
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

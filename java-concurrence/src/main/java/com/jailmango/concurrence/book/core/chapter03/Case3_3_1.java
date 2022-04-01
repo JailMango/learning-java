@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_3_1 - ThreadLocal get()方法与null
  * ThreadLocal解决的是变量在不同线程的隔离性，也就是不同的线程拥有自己的值
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/19
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

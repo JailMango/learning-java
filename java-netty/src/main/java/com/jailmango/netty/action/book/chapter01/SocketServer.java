@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 /**
  * SocketServer - code1-1
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-29
  * @see com.jailmango.netty.action.book.chapter01
  * @since R9.0

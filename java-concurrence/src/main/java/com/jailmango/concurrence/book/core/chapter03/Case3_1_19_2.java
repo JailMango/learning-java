@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_1_19_2 - 3.1.19 生产者/消费者模式实现 - 2. 多生产者与多消费者: 操作值(假死) 复现假死问题
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-03
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

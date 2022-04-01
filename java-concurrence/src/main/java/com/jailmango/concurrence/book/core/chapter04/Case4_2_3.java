@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
  * ReentrantReadWriteLock类的使用 - 写写互斥 <br/>
  * 使用写锁代码lock.writeLock()的效果是同一时间只允许一个线程执行lock()方法后面的代码 <br/>
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/13
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

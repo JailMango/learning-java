@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Dom4jUtils
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/11/12
  * @see com.jailmango.exercise.utils.dom4j
  * @since R9.0<br>

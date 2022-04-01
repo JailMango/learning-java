@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * RightWayInterrupted <br/>
  * Thread.interrupted()的目标对象是当前线程，而不管来自于哪个对象
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/25
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0

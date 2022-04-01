@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * Client
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.zk.curator
  */
 @Slf4j

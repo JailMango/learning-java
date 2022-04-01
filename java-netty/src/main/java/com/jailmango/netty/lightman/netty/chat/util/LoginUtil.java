@@ -10,7 +10,7 @@ import com.jailmango.netty.lightman.netty.chat.attribute.Attributes;
 /**
  * LoginUtil
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-09
  * @see com.jailmango.netty.lightman.netty.chat.util
  * @since R9.0

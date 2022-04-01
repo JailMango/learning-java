@@ -3,7 +3,7 @@ package core.basic.chapter09.状态模式;
 /**
  * 状态模式
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/18
  * @see core.basic.chapter09.状态模式
  * @since R9.0

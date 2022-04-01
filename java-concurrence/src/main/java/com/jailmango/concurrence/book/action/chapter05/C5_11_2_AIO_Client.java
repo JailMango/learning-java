@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C5_11_2_AIO_Client
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/5
  * @see com.jailmango.concurrence.book.action.chapter05
  * @since R9.0

@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * 5.1.3 schedule(TimerTask task, long delay)方法的测试 <br/>
  * 作用是以执行该方法的当前时间作为参考时间，在此时间基础上延迟指定的毫秒数后执行一次TimerTask任务 <br/>
  * schedule(TimerTask task, long delay, long period)作用大致相同，只是会周期性执行
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/17
  * @see com.jailmango.concurrence.book.core.chapter05
  * @since R9.0

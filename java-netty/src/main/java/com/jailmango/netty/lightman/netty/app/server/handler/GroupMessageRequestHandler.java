@@ -18,7 +18,7 @@ import com.jailmango.netty.lightman.netty.app.util.SessionUtil;
 /**
  * GroupMessageRequestHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/5
  * @see com.jailmango.netty.lightman.netty.app.server.handler
  * @since R9.0

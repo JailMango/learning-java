@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
  * 2.1 显式使用线程实现异步编程 <br/>
  * 异步执行
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.concurrence.book.async.chapter02
  */
 @Slf4j

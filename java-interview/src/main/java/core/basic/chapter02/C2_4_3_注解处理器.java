@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C2_4_3_注解处理器
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/16
  * @see core.basic.chapter02
  * @since R9.0

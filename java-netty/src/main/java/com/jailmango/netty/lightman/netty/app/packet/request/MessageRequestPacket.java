@@ -8,7 +8,7 @@ import com.jailmango.netty.lightman.netty.app.packet.command.Command;
 /**
  * MessageRequestPacket
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/3
  * @see com.jailmango.netty.lightman.netty.app.packet.request
  * @since R9.0

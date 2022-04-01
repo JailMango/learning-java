@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 /**
  * CasCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/9/23
  * @see com.jailmango.exercise.utils.cas
  */

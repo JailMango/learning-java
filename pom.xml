@@ -48,7 +48,7 @@
         <commons-collections4.version>4.4</commons-collections4.version>
         <mysql-connector.version>8.0.17</mysql-connector.version>
         <guava.version>31.0.1-jre</guava.version>
-        <curator.version>5.1.0</curator.version>
+        <curator.version>5.2.0</curator.version>
         <redisson.version>3.15.0</redisson.version>
     </properties>
 
@@ -198,6 +198,34 @@
                 <version>1.2.78</version>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>4.1.70.Final</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.powermock/powermock-api-mockito2 -->
+            <dependency>
+                <groupId>org.powermock</groupId>
+                <artifactId>powermock-api-mockito2</artifactId>
+                <version>2.0.9</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.powermock/powermock-module-junit4 -->
+            <dependency>
+                <groupId>org.powermock</groupId>
+                <artifactId>powermock-module-junit4</artifactId>
+                <version>2.0.9</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-recipes -->
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -232,7 +260,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
-
     </dependencies>
 
     <build>
