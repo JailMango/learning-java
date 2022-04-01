@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * SocketClient
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-30
  * @see com.jailmango.netty.action.book.chapter01
  * @since R9.0

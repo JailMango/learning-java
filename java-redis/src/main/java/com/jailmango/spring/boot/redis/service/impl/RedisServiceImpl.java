@@ -18,7 +18,7 @@ import com.jailmango.spring.boot.redis.utils.ConvertUtils;
 /**
  * RedisServiceImpl
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-25
  * @see com.jailmango.java.spring.boot.redis.service.impl
  * @since R9.0

@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C6_6_2_StampedLock的缺点
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/11
  * @see com.jailmango.concurrence.book.action.chapter06
  * @since R9.0

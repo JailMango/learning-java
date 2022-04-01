@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * MapCase1
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-01
  * @see com.jailmango.exercise.utils.map
  * @since R9.0

@@ -11,7 +11,7 @@ import com.jailmango.reflection.ifeve.dto.PersonDto;
 /**
  * ConstructorCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-18
  * @see com.jailmango.reflection.ifeve.chapter03
  * @since R9.0

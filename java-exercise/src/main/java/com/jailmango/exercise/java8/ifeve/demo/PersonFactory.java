@@ -4,7 +4,7 @@ package com.jailmango.exercise.java8.ifeve.demo;
  * PersonFactory
  *
  * @param <P>
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-01
  * @see com.jailmango.exercise.java8.ifeve.demo
  * @since R9.0

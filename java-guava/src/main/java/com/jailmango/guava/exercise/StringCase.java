@@ -1,17 +1,16 @@
 package com.jailmango.guava.exercise;
 
-import java.util.List;
-
+import com.google.common.base.Joiner;
+import com.google.common.base.Splitter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.base.Joiner;
-import com.google.common.base.Splitter;
+import java.util.List;
 
 /**
  * StringCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/10/29
  * @see com.jailmango.guava.exercise
  * @since R9.0

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_2_3 - 2.2.3 用同步代码块解决同步方法的弊端
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-24
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

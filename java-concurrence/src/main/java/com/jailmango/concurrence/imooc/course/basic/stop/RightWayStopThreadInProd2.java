@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
  * 在catch语句中调用Thread.currentThread().interrupt()来恢复设置中断状态 <br/>
  * 以便于在后续的执行中，依然能够检查到刚才发生的中断。 回到刚才RightWayStopThreadInProd补上中断，让他跳出.
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/16
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0

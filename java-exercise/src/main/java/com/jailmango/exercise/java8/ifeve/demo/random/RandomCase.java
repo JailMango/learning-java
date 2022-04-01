@@ -5,7 +5,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * RandomCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2022/1/12
  * @see com.jailmango.exercise.java8.ifeve.demo.random
  */

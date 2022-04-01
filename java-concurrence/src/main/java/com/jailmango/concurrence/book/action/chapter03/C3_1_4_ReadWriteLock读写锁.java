@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * ReadWriteLock读写锁_3_1_4
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/6
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

@@ -3,7 +3,7 @@ package com.jailmango.concurrence.pattern;
 /**
  * Main
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/11/21
  * @see com.jailmango.java.pattern
  * @since R9.0<br>

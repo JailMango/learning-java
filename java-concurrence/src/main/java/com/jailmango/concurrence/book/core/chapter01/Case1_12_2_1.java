@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_12_2_1 - 1.12.2 suspend()和resume()方法缺点:独占
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-22
  * @see com.jailmango.concurrence.book.core.chapter01
  * @since R9.0

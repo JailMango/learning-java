@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 测试有关异常处理的内容
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/11/24
  * @see com.jailmango.concurrence.exercise
  */

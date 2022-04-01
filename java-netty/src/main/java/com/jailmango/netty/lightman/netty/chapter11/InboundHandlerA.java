@@ -13,7 +13,7 @@ import com.jailmango.netty.lightman.netty.chat.attribute.Attributes;
 /**
  * InboundHandlerA
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-12
  * @see com.jailmango.netty.lightman.netty.chapter11
  * @since R9.0

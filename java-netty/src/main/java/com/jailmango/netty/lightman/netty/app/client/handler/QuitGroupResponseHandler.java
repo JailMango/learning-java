@@ -11,7 +11,7 @@ import com.jailmango.netty.lightman.netty.app.packet.response.QuitGroupResponseP
 /**
  * QuitGroupResponseHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/11/22
  * @see com.jailmango.netty.lightman.netty.app.client.handler
  * @since R9.0

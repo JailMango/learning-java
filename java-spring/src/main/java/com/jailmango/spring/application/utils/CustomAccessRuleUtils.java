@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * AccessRuleUtils
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/12/2
  * @see com.jailmango.spring.application.utils
  */

@@ -11,7 +11,7 @@ import io.netty.util.CharsetUtil;
 /**
  * ServerHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-13
  * @see com.jailmango.netty.lightman.netty.chapter13.server.handler
  * @since R9.0

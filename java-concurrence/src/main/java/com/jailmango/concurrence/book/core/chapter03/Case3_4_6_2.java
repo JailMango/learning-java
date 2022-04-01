@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_4_6_2 - 3.4.6 子线程可以感应对象属性值的变化
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/26
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * SceneEnum
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/12/8
  * @see com.jailmango.exercise.utils.enumcase
  */

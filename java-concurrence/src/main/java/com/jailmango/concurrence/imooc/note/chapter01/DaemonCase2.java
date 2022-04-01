@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * DaemonCase2
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-02-27
  * @see com.jailmango.imooc.note.chapter01
  * @since R9.0

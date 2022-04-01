@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_3_3_2 - 2.3.3 - 2. 关键字volatile之前的代码可以重排
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-31
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * Case3_3_3 - 3.3.3 验证线程变量的隔离性
  * 运行结果表明，通过使用ThreadLocal实现每个线程存储自己的私有数据
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/19
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

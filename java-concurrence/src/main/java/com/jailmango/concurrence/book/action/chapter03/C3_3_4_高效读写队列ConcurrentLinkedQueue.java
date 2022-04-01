@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 高效读写队列ConcurrentLinkedQueue_3_3_4
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/9
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

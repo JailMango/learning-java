@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_1_6 - 3.1.6/3.1.7 使用wait/notify机制，实现列表大小为5时，线程自动销毁
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-31
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case4_1_6 - 4.1.6 通知部分线程-错误用法
  * 本例使用了一个contion对象，因此唤醒了所有线程
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/1/13
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

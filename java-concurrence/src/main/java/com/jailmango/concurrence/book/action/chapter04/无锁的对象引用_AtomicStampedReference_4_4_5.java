@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 无锁的对象引用_AtomicStampedReference_4_4_5
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/12
  * @see com.jailmango.concurrence.book.action.chapter04
  * @since R9.0

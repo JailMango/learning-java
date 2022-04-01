@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_3_1_1 - 2.3.1 - 1. volatile可见性，本例展示未使用volatile的情况 单线程出现死循环
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-29
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

@@ -8,7 +8,7 @@ import com.jailmango.netty.lightman.netty.app.packet.command.Command;
 /**
  * QuitGroupRequestPacket
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/11/22
  * @see com.jailmango.netty.lightman.netty.app.packet.request
  * @since R9.0

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_2_6 - 3.2.6 join()方法后面的代码提前运行 - 解释意外
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/19
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

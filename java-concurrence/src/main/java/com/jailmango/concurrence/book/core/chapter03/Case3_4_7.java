@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * 那么两者的区别是什么呢？
  * InheritableThreadLocalExt.set()可以在任意时刻执行任意次
  * 重写childValue()方法只有在创建子线程时才会执行且仅执行一次
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/26
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

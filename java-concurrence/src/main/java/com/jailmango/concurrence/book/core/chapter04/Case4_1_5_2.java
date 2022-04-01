@@ -10,7 +10,7 @@ import sun.misc.Unsafe;
 /**
  * Case4_1_5_2 - 4.1.5 await()方法暂停线程运行的原理
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/1/13
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

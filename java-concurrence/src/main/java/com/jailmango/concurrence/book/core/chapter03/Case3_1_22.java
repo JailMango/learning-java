@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_1_22 - 3.1.22 实现wait/notify的交叉备份
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-04
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

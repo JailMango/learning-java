@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * CantStartTwiceCase <br/>
  * 不能两次调用start()方法，否则会报错
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/14
  * @see com.jailmango.concurrence.imooc.course.basic.start
  * @since R9.0

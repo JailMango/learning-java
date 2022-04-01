@@ -3,7 +3,7 @@ package com.jailmango.concurrence.book.core.chapter03;
 /**
  * Case3_1_1 - 3.1.1 不使用wait/notify机制实现线程间通信
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-31
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

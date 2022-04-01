@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 验证多核场景下可见性的问题
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/10
  * @see com.jailmango.concurrence.geekpark.action
  * @since R9.0

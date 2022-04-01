@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * MyServer
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/21
  * @see core.basic.chapter01.nio
  * @since R9.0

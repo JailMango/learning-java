@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * Case4_1_4 - 4.1.4 使用await()和signal()使用wait/notify机制
  * 从例子可以看出，main线程通知了MyThread线程
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/1/10
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

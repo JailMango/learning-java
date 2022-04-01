@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * SerializableDto
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-03-07
  * @see com.jailmango.exercise.utils.obj
  * @since R9.0

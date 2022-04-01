@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
  * 错误的停止方法：用stop()来停止线程，会导致线程运行到一半突然停止 <br/>
  * 没办法完成一个基本单位的操作(一个连队)，会造成脏数据(有的连队多领取或少领取装备)
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/19
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0

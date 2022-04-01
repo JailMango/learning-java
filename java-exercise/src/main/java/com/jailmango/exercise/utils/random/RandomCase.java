@@ -13,7 +13,7 @@ import java.util.Random;
 /**
  * RandomCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/12/27
  * @see com.jailmango.exercise.utils.random
  */

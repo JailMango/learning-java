@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_2_2 - 3.2.2 join()方法和interrupt()方法出现异常
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-25
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

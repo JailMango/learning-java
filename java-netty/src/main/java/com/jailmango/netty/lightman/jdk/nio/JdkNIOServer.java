@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 /**
  * JdkNIOServer
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-01
  * @see com.jailmango.netty.lightman.jdk.nio
  * @since R9.0

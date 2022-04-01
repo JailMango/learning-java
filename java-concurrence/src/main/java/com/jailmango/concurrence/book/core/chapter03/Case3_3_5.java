@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_3_5 - 3.3.5 验证重写initialValue()方法的隔离性
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/20
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

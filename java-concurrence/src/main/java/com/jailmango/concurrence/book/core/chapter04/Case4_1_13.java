@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  * 5个线程，每个线程都执行了同一个Condition.await(), <br/>
  * 则调用getWaitQueueLength(Condition condition), 返回的int值是5
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/7/7
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

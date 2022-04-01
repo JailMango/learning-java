@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * LetterUtils
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/11/2
  * @see com.jailmango.exercise.utils.string
  */

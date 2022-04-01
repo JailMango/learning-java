@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_2_1_2 - 3.2.1 使用join()方法解决之前出现的问题
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-25
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

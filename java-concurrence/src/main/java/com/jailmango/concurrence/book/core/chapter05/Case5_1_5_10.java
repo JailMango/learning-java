@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  * 将两个时间段内的时间锁对应的Task任务被"弥补"地执行，<br/>
  * 也就是在指定时间段内运行次数必须运行完整，就是Task任务的追赶特性。
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/17
  * @see com.jailmango.concurrence.book.core.chapter05
  * @since R9.0

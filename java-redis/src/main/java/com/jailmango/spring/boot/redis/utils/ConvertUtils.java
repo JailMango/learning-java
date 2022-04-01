@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * ConvertUtils
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-30
  * @see com.jailmango.java.spring.boot.redis.utils
  * @since R9.0

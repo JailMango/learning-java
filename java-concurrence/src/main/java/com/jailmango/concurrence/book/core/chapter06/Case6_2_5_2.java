@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 6.2.5
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/24
  * @see com.jailmango.concurrence.book.core.chapter06
  * @since R9.0

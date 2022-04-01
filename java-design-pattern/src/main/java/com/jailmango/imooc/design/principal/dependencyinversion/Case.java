@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case - 依赖倒置原则
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-02-27
  * @see com.jailmango.imooc.design.principal.dependencyinversion
  * @since R9.0

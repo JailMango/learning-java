@@ -3,7 +3,7 @@ package com.jailmango.reflection.ifeve.dto;
 /**
  * BaseDto
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-18
  * @see com.jailmango.reflection.ifeve.dto
  * @since R9.0

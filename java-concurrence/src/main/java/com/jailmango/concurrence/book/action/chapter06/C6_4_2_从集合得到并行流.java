@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C6_4_2_从集合得到并行流
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/10
  * @see com.jailmango.concurrence.book.action.chapter06
  * @since R9.0

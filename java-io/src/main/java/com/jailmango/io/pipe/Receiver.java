@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Receiver
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-03-13
  * @see com.jailmango.java.io.pipe
  * @since R9.0

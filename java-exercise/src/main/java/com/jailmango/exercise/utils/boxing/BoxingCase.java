@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * BoxingCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018-12-17
  * @see com.jailmango.exercise.utils.boxing
  * @since R9.0<br>

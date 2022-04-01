@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * HexUtils
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-19
  * @see com.jailmango.exercise.utils.string
  * @since R9.0

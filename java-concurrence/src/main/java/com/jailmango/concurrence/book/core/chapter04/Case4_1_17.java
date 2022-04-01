@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
  * 4.1.17. public final boolean isFair()方法的使用 <br/>
  * 作用是判断是不是公平锁 <br/>
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/3
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

@@ -12,7 +12,7 @@ import io.netty.handler.timeout.IdleStateHandler;
 /**
  * IMIdleStateHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/13
  * @see com.jailmango.netty.lightman.netty.app.handler
  * @since R9.0

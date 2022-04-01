@@ -11,7 +11,7 @@ import java.util.function.Function;
 /**
  * StreamCase
  *
- * @author gang.he2
+ * @author jailmango
  * @CreateDate 2022/3/25
  * @see com.jailmango.exercise.utils.stream
  */
@@ -23,7 +23,7 @@ public class StreamCase {
      * @param args String[]
      */
     public static void main(String[] args) {
-        Map<Integer, List<Person>> map = new HashMap<>() {
+        Map<Integer, List<Person>> map = new HashMap<Integer, List<Person>>() {
             {
                 put(1, Lists.newArrayList(new Person("11", 11), new Person("12", 12), new Person("13", 13)));
                 put(2, Lists.newArrayList(new Person("21", 21), new Person("22", 22), new Person("23", 23)));
@@ -36,7 +36,7 @@ public class StreamCase {
             public Optional<?> apply(Map<Integer, List<Person>> integerListMap) {
                 return Optional.empty();
             }
-        })
+        });
     }
 
     private static class Person {

@@ -8,7 +8,7 @@ import com.jailmango.dubbo.spi.ISpiService;
 /**
  * SpiServiceImpl
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/10/23
  * @see com.jailmango.dubbo.java.spi.impl
  * @since R9.0

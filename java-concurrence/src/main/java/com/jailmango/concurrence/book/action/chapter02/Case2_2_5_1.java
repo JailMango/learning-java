@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
  * 反例 <br/>
  * Thread-2无法被唤醒，且状态仍显示为Runnable，严重影响我们对于系统的判断
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/17
  * @see com.jailmango.concurrence.book.action.chapter02
  * @since R9.0

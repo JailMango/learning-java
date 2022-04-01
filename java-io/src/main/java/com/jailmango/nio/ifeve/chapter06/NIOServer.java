@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 /**
  * NIOServer
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-08
  * @see com.jailmango.nio.ifeve.chapter06
  * @since R9.0

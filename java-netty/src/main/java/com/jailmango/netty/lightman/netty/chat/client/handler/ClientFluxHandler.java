@@ -12,7 +12,7 @@ import com.jailmango.netty.lightman.netty.chat.counter.FluxCounter;
 /**
  * ClientFluxHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/3
  * @see com.jailmango.netty.lightman.netty.chat.client.handler
  * @since R9.0

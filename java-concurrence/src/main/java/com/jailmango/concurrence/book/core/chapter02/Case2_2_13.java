@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_2_13 - 2.2.13 类Class的单例性
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-27
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

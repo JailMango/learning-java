@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
  * NumberFormat
  *
- * @author gang.he2
+ * @author jailmango
  * @CreateDate 2022/3/2
  * @see com.jailmango.exercise.utils.format
  */

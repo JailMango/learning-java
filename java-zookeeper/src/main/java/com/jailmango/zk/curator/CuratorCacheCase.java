@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * CuratorPathWatch
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.zk.curator
  */
 @Slf4j

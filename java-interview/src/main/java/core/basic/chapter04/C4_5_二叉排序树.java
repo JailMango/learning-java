@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C4_5_二叉排序树
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/24
  * @see core.basic.chapter04
  * @since R9.0

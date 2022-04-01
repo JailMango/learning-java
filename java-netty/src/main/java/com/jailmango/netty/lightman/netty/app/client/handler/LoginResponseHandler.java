@@ -13,7 +13,7 @@ import com.jailmango.netty.lightman.netty.app.util.SessionUtil;
 /**
  * LoginResponseHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/17
  * @see com.jailmango.netty.lightman.netty.app.client.handler
  * @since R9.0

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_2_6 - 1.2.6 Runnable可以避免无法多继承
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-20
  * @see com.jailmango.concurrence.book.core.chapter01
  * @since R9.0

@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * E7TTE4NEVZEVX6OL
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/3/11
  * @see com.jailmango.exercise.utils.security
  * @since R9.0

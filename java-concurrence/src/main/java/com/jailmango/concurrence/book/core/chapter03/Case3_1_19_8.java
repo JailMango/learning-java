@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_1_19_8 - 3.1.19 - 8. 允许连续生产多个，允许连续消费多个
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-04
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

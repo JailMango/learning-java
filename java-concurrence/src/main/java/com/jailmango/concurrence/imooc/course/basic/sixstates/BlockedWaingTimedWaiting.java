@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * BlockedWaingTimedWaiting <br/>
  * 展示Blocked、Waiting、TimedWaiting状态
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/30
  * @see com.jailmango.concurrence.imooc.course.basic.sixstates
  * @since R9.0

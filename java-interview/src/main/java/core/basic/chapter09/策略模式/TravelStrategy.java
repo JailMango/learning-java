@@ -3,7 +3,7 @@ package core.basic.chapter09.策略模式;
 /**
  * TravelStrategy
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/15
  * @see core.basic.chapter09.策略模式
  * @since R9.0

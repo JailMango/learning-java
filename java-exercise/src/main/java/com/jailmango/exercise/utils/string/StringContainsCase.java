@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * StringContainsCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/1/7
  * @see com.jailmango.exercise.utils.string
  * @since R9.0

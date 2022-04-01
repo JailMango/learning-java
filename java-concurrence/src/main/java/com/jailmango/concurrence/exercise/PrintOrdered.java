@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * PrintOrdered
  *
- * @author gang.he2
+ * @author jailmango
  * @CreateDate 2022/3/9
  * @see com.jailmango.concurrence.exercise
  */

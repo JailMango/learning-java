@@ -3,7 +3,7 @@ package com.jailmango.jdk.source.interview.basic;
 /**
  * ParentInterface
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/10/29
  * @see com.jailmango.jdk.source.interview.basic
  * @since R9.0

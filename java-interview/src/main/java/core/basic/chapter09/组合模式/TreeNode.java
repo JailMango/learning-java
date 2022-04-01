@@ -8,7 +8,7 @@ import lombok.ToString;
 /**
  * TreeNode
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/14
  * @see core.basic.chapter09.组合模式
  * @since R9.0

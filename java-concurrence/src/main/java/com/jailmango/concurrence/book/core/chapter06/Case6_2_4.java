@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 6.2.4 使用DCL机制(Double-Check Locking，双检查锁)
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/24
  * @see com.jailmango.concurrence.book.core.chapter06
  * @since R9.0

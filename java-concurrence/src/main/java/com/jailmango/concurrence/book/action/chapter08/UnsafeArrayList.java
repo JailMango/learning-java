@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * UnsafeArrayList
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/14
  * @see com.jailmango.concurrence.book.action.chapter08
  * @since R9.0

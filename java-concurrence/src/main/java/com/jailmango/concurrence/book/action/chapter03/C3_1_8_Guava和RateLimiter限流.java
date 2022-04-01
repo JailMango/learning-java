@@ -7,7 +7,7 @@ import com.google.common.util.concurrent.RateLimiter;
 /**
  * Guava和RateLimiter限流_3_1_8
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/8
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

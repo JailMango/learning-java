@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 /**
  * FileChannelCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-08
  * @see com.jailmango.nio.ifeve.chapter07
  * @since R9.0

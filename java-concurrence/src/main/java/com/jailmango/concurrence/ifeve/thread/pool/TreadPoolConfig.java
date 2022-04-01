@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * TreadPoolConfig
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/11/14
  * @see com.jailmango.java.concurrence.ifeve.thread.pool
  * @since R9.0<br>

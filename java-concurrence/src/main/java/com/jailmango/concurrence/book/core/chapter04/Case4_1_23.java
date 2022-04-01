@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  * 4.1.23 public boolean await(long time, TimeUnit unit)方法的使用 <br/>
  * 该方法和public final native void wait(long timeout)方法一样，具有自动唤醒线程的功能 <br/>
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/12
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

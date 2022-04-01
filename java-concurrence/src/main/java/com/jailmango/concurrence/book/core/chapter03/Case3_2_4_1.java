@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * Case3_2_4_1 - 3.2.4.1 Thread.sleep(long)方法不释放锁
  * 本例中ThreadA和ThreadB，持有相同的锁。通过结果可以表明，Thread.sleep(long)方法不释放锁。
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/19
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

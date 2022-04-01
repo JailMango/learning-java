@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 /**
  * ListCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-03-20
  * @see com.jailmango.exercise.utils.list
  * @since R9.0

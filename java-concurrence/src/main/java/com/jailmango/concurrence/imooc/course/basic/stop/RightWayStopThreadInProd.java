@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * Chapter5-6 <br/>
  * 最佳实践: catch了InterruptedException之后，优先选择在方法签名中抛出异常 那么在run()方法中就会强制try-catch
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/15
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0

@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * 使用ReentrantLock对象时，所有的操作都同步，哪怕只对实例变量进行读取操作 <br/>
  * 这样会耗费大量的时间，降低运行效率。
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/13
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

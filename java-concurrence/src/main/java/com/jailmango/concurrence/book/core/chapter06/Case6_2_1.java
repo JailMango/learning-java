@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * 指的是调用get()方法实例才被工厂创建，常见的实现办法是在get()方法中进行new实例化 <br/>
  * 本例验证了这种写法的错误性.
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/18
  * @see com.jailmango.concurrence.book.core.chapter06
  * @since R9.0

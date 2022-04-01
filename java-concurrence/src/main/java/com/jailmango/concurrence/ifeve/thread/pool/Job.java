@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Job
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/11/15
  * @see com.jailmango.java.concurrence.ifeve.thread.pool
  * @since R9.0<br>

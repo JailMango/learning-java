@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C3_8_2_3_PriorityBlockingQueue
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/18
  * @see core.basic.chapter03
  * @since R9.0

@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * ThreadLocal简单实用_4_3_1 因为SimpleDateFormat不是线程安全的，因此作为共享对象会出现问题。
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/12
  * @see com.jailmango.concurrence.book.action.chapter04
  * @since R9.0

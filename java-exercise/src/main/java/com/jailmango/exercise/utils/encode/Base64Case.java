@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Base64Case
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018-11-29
  * @see com.jailmango.exercise.utils.encode
  * @since R9.0<br>

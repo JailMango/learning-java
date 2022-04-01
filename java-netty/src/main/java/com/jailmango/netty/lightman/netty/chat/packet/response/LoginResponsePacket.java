@@ -8,7 +8,7 @@ import com.jailmango.netty.lightman.netty.chat.packet.Packet;
 /**
  * LoginResponsePacket
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-08
  * @see com.jailmango.netty.lightman.netty.chat.packet
  * @since R9.0

@@ -3,7 +3,7 @@ package core.basic.chapter09.适配器模式.类适配器模式;
 /**
  * 类适配器模式
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/10
  * @see core.basic.chapter09.适配器模式
  * @since R9.0

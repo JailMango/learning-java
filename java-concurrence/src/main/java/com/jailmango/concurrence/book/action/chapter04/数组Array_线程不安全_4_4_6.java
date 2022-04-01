@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 无锁数组_AtomicIntegerArray_4_4_6
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/12
  * @see com.jailmango.concurrence.book.action.chapter04
  * @since R9.0

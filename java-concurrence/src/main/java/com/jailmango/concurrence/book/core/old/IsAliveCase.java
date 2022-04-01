@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * IsAliveCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-03-14
  * @see com.jailmango.java.book.core.chapter01
  * @since R9.0

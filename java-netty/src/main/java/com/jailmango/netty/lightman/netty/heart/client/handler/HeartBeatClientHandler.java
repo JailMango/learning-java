@@ -11,7 +11,7 @@ import io.netty.handler.timeout.IdleStateEvent;
 /**
  * HeartBeatClientHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/8/29
  * @see com.jailmango.netty.lightman.netty.heart.client.handler
  * @since R9.0

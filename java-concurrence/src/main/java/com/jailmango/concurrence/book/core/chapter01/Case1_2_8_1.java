@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_2_8_1 - 1.2.8 不共享数据
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-20
  * @see com.jailmango.concurrence.book.core.chapter01
  * @since R9.0

@@ -3,7 +3,7 @@ package com.jailmango.imooc.design.liskov;
 /**
  * Square
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-03-27
  * @see com.jailmango.imooc.design.liskov
  * @since R9.0

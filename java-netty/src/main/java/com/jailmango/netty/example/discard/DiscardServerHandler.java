@@ -11,7 +11,7 @@ import io.netty.util.ReferenceCountUtil;
 /**
  * DiscardServerHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-01
  * @see com.jailmango.netty.example.discard
  * @since R9.0

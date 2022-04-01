@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 /**
  * StreamCase
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.exercise.java8.stream
  */
 @Slf4j

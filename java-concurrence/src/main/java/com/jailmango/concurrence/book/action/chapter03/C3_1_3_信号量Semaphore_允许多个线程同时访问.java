@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 信号量_允许多个线程同时访问_3_1_3
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/6
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

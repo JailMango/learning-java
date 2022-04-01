@@ -16,7 +16,7 @@ import com.jailmango.netty.lightman.netty.chapter13.server.handler.ServerHandler
 /**
  * Server
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-13
  * @see com.jailmango.netty.lightman.netty.chapter13.server
  * @since R9.0

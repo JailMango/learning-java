@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case6_2_5_1 - 有可能发生指令重排
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/24
  * @see com.jailmango.concurrence.book.core.chapter06
  * @since R9.0

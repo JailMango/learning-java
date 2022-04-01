@@ -11,7 +11,7 @@ import com.jailmango.netty.lightman.netty.chat.util.LoginUtil;
 /**
  * AuthHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/3
  * @see com.jailmango.netty.lightman.netty.chat.server.handler
  * @since R9.0

@@ -3,7 +3,7 @@ package com.jailmango.algorithm.geektime;
 /**
  * 19. 删除链表的倒数第N个节点
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/18
  * @see com.jailmango.algorithm.geektime
  * @since R9.0

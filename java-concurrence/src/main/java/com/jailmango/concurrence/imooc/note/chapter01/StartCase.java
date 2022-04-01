@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * StartCase - 开篇 - 什么是线程
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-02-26
  * @see com.jailmango.imooc.note.chapter01
  * @since R9.0

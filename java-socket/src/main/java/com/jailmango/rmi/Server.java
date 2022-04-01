@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Server
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-20
  * @see com.jailmango.rmi
  * @since R9.0

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * CounterMain
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-16
  * @see com.jailmango.netty.lightman.netty.chat.counter
  * @since R9.0

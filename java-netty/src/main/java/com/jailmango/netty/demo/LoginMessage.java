@@ -3,7 +3,7 @@ package com.jailmango.netty.demo;
 /**
  * LoginMessage
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-12
  * @see com.jailmango.netty.demo
  * @since R9.0

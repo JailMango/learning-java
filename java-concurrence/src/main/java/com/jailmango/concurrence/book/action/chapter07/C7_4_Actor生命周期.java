@@ -13,7 +13,7 @@ import com.typesafe.config.ConfigFactory;
 /**
  * C7_4_Actor生命周期
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/13
  * @see com.jailmango.concurrence.book.action.chapter07
  * @since R9.0

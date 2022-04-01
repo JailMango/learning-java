@@ -20,7 +20,7 @@ import com.jailmango.netty.lightman.netty.chat.serializer.impl.FastJsonSerialize
 /**
  * PacketCodeC
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-07
  * @see com.jailmango.netty.lightman.netty.chat.packet
  * @since R9.0

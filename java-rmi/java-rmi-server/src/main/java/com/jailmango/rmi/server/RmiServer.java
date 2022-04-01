@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * RmiServer
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-04
  * @see com.jailmango.rmi.server
  * @since R9.0

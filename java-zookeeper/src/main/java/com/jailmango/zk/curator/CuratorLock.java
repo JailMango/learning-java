@@ -6,7 +6,7 @@ import org.apache.curator.framework.recipes.locks.InterProcessMutex;
 /**
  * CuratorLock
  *
- * @author gang.he2
+ * @author jailmango
  * @CreateDate 2022/3/28
  * @see com.jailmango.zk.curator
  */
@@ -19,6 +19,6 @@ public class CuratorLock {
      * @param args String[]
      */
     public static void main(String[] args) {
-        InterProcessMutex
+
     }
 }

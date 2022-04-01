@@ -23,7 +23,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C5_10_2_基于NIO服务端的多线程
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/1
  * @see com.jailmango.concurrence.book.action.chapter05
  * @since R9.0

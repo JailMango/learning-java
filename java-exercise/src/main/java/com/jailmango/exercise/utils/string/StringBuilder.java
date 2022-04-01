@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * StringBuilder
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-25
  * @see com.jailmango.exercise.utils.string
  * @since R9.0

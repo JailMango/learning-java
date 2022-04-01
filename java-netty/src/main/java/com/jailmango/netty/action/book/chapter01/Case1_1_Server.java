@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_1 - 代码清单1-1 阻塞I/O示例
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-24
  * @see com.jailmango.netty.action.book.chapter01
  * @since R9.0

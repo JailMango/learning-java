@@ -3,7 +3,7 @@ package com.jailmango.design.pattern.proxy.entertainment.normal;
 /**
  * ProxyTestCase 静态代理
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/10/23
  * @see com.jailmango.design.pattern.proxy.entertainment
  * @since R9.0<br>

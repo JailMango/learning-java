@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_1_20 - 3.1.20 通过管道进行线程间通信 - 字节流
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-04
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

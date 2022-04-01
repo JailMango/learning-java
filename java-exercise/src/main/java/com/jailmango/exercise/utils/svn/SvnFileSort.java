@@ -14,7 +14,7 @@ import org.springframework.util.CollectionUtils;
 /**
  * SvnFileUtil
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018-12-13
  * @see com.jailmango.exercise.utils.svn
  * @since R9.0<br>

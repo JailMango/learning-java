@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_2_16 - 2.2.16 synchronized(Class)代码块对类的所有实例对象都起作用
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-28
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

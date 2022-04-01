@@ -3,7 +3,7 @@ package com.jailmango.concurrence.book.core.old;
 /**
  * RunServlet
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/11/20
  * @see com.jailmango.java.book.core.chapter01
  * @since R9.0<br>

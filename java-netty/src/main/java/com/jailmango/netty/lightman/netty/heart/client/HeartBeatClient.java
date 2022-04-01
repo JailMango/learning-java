@@ -16,7 +16,7 @@ import com.jailmango.netty.lightman.netty.heart.client.handler.HeartBeatClientHa
 /**
  * HeartBeatClient
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/8/29
  * @see com.jailmango.netty.lightman.netty.heart.client
  * @since R9.0

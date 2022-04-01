@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * Chapter5-11 <br/>
  * 错误方法：演示用volatile的局限性 - part1 看似可行
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/19
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0

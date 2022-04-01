@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  * 将最后一个任务放入队列头，再执行队列头中的Task任务的run()方法，效果如下：<br/>
  * ABC -> CAB -> BCA
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/17
  * @see com.jailmango.concurrence.book.core.chapter05
  * @since R9.0

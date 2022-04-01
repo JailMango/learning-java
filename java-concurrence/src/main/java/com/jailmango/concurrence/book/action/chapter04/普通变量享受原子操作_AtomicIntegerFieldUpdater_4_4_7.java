@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 普通变量享受原子操作_AtomicIntegerFieldUpdater_4_4_7
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/12
  * @see com.jailmango.concurrence.book.action.chapter04
  * @since R9.0

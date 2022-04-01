@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 数据共享BlockingQueue_ArrayBlockingQueue_3_3_6
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/20
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

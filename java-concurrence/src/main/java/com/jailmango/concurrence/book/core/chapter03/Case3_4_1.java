@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_4_1 - 3.4.1 类ThreadLocal不能实现值继承
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/20
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

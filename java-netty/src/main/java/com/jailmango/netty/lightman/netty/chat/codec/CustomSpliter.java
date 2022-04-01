@@ -10,7 +10,7 @@ import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 /**
  * CustomSpliter
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-15
  * @see com.jailmango.netty.lightman.netty.chat.codec
  * @since R9.0

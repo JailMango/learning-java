@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * Case4_1_3_1 - 4.1.3 await()方法的错误使用与更正
  * 该示例会出现异常(java.lang.IllegalMonitorStateException)
  * 因为调用condition.await()方法之前，必须先调用lock.lock()来获得锁
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/27
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

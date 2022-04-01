@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 /**
  * ListCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-24
  * @see com.jailmango.exercise.utils.collection
  * @since R9.0

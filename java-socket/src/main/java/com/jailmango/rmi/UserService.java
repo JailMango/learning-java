@@ -6,7 +6,7 @@ import java.rmi.server.UnicastRemoteObject;
 /**
  * UserService
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-20
  * @see com.jailmango.rmi
  * @since R9.0

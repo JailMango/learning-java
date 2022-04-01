@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 /**
  * OptionalCase
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.exercise.java8.ifeve.demo.optional
  */
 @Slf4j

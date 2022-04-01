@@ -12,7 +12,7 @@ import com.jailmango.rmi.service.IUserService;
 /**
  * RmiRunner
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-04
  * @see com.jailmango.rmi.client.runner
  * @since R9.0

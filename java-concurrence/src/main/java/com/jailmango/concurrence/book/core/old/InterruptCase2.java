@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * InterruptCase2
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018-11-28
  * @see com.jailmango.java.book.core.chapter01
  * @since R9.0<br>

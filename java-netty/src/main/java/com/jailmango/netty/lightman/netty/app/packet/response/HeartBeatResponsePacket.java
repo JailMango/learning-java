@@ -6,7 +6,7 @@ import com.jailmango.netty.lightman.netty.app.packet.command.Command;
 /**
  * HeartBeatResponsePacket
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/16
  * @see com.jailmango.netty.lightman.netty.app.packet.response
  * @since R9.0

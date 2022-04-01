@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * 7.8.1 线程组内处理异常 <br/>
  * 线程组内某个线程出问题，影响其他线程
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/10
  * @see com.jailmango.concurrence.book.core.chapter07
  * @since R9.0

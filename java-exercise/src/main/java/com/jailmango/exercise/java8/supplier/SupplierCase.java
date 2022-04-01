@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * SupplierCase
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.exercise.java8.supplier
  */
 @Slf4j

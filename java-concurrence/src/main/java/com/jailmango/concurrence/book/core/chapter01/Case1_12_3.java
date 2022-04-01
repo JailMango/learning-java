@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_12_3 - 1.12.3 suspend() resume()缺点：数据不完整
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-22
  * @see com.jailmango.concurrence.book.core.chapter01
  * @since R9.0

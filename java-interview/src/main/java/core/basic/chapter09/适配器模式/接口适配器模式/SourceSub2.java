@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * SourceSub2
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/13
  * @see core.basic.chapter09.适配器模式.接口适配器模式
  * @since R9.0

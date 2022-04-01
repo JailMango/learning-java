@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_2_2 - 1.2.2 分析线程的指令
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-16
  * @see com.jailmango.concurrence.book.core.chapter01
  * @since R9.0

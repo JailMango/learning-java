@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * NIOPathCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-12
  * @see com.jailmango.nio.ifeve.chapter12
  * @since R9.0

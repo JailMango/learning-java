@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 7.1.1 验证线程状态NEW, RUNNABLE, TERMINATED
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/2
  * @see com.jailmango.concurrence.book.core.chapter07
  * @since R9.0

@@ -10,7 +10,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 /**
  * ClientHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-13
  * @see com.jailmango.netty.lightman.netty.chapter13.client.handler
  * @since R9.0

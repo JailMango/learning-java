@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  * 而不是呈阻塞等待锁的状态。如果当前线程在指定的timeout时间内，持有了锁，则返回true，反之返回false <br/>
  * 参数timeout表示当前线程争抢锁的时间
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/12
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * 作用是嗅探拿锁，如果当前线程发现锁被其他线程持有了，则返回false，执行后面的代码 <br/>
  * 而不是呈阻塞等待锁的状态。
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/12
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

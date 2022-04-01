@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * LongCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/10/29
  * @see com.jailmango.jdk.source.interview.basic
  * @since R9.0

@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Client
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-02
  * @see com.jailmango.socket.chapter02
  * @since R9.0

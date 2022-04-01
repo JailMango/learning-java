@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case1_2_3 - [1.2.3章节 - 实例变量与线程安全]
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/11/16
  * @see com.jailmango.java.book.core.chapter01
  * @since R9.0<br>

@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
  * 2.2.5 挂起和继续执行 <br/>
  * 解决前面的问题 <br/>
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/17
  * @see com.jailmango.concurrence.book.action.chapter02
  * @since R9.0

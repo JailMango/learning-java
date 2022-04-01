@@ -25,7 +25,7 @@ import com.jailmango.netty.lightman.netty.app.server.handler.WasteTimeHandler;
 /**
  * ChatServer
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/3
  * @see com.jailmango.netty.lightman.netty.app.server
  * @since R9.0

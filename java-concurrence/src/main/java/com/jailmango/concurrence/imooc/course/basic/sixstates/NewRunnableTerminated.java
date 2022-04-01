@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * 展示线程的NEW、RUNNABLE、TERMINATED状态。<br/>
  * 即使是正在运行，也是RUNNABLE状态，而不是RUNNING。
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/29
  * @see com.jailmango.concurrence.imooc.course.basic.sixstates
  * @since R9.0

@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 7.6 SimpleDateFormat非线程安全
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/9
  * @see com.jailmango.concurrence.book.core.chapter07
  * @since R9.0

@@ -8,7 +8,7 @@ import java.util.Optional;
 /**
  * OptionalCase1
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.exercise.java8.ifeve.demo.optional
  */
 @Slf4j

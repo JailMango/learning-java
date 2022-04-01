@@ -2,18 +2,16 @@ package com.jailmango.spring.application.accessor.impl.base;
 
 import com.jailmango.spring.application.accessor.Accessor;
 import com.jailmango.spring.application.utils.Utils;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 /**
  * AbstractFrequenceAccessor
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/12/2
  * @see com.jailmango.spring.application.accessor.base
  */
-@Slf4j
 public abstract class AbstractFrequenceAccessor implements Accessor {
 
     @Autowired
@@ -27,7 +25,8 @@ public abstract class AbstractFrequenceAccessor implements Accessor {
     }
 
     protected void doCommonBiz() {
-        log.info("entry doCommonBiz.");
+        // log.info("entry doCommonBiz.");
+        System.out.println("entry doCommonBiz.");
         utils().getAccessRule("");
     }
 
@@ -35,5 +34,11 @@ public abstract class AbstractFrequenceAccessor implements Accessor {
 
     protected Utils utils() {
         return this.accessRuleUtils;
+    }
+
+    private boolean calculate(int num) {
+        // log.info("do calculate.");
+        System.out.println("do calculate.");
+        return num % 2 == 0;
     }
 }

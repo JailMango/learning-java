@@ -3,7 +3,7 @@ package com.jailmango.exercise.utils.test;
 /**
  * LoopCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/3/4
  * @see com.jailmango.exercise.utils.test
  * @since R9.0

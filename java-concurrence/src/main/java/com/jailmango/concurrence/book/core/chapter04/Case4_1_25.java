@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
  * 4.1.25 public boolean awaitUntil(Date deadline)方法的使用 <br/>
  * 作用是在指定的时间结束等待
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/13
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

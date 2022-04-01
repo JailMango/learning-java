@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 3.1.1.1 可重入锁 - 中断响应
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/28
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

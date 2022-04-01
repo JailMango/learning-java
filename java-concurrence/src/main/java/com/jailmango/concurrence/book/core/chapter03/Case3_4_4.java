@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_4_4 - 3.4.4 父线程有最新的值，子线程仍是旧值
  * 结果表明，父线程数据更新，不影响子线程
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/25
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

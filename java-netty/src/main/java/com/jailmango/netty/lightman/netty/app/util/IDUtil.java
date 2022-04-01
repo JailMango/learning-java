@@ -5,7 +5,7 @@ import java.util.UUID;
 /**
  * IDUtil
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/11/22
  * @see com.jailmango.netty.lightman.netty.app.util
  * @since R9.0

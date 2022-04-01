@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * C_6_8_2_ConcurrentHashMap增加_Reduce
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/11/12
  * @see com.jailmango.concurrence.book.action.chapter06
  * @since R9.0

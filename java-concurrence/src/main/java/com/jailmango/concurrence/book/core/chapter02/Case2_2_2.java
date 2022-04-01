@@ -3,7 +3,7 @@ package com.jailmango.concurrence.book.core.chapter02;
 /**
  * Case2_2_2 - 2.2.2 使用synchronized 同步代码块
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-24
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

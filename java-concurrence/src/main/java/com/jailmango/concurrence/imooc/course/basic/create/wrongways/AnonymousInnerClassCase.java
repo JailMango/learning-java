@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * AnonymousInnerClassCase <br/>
  * 用匿名内部类的方式创建线程
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/13
  * @see com.jailmango.concurrence.imooc.course.basic.create.wrongways
  * @since R9.0

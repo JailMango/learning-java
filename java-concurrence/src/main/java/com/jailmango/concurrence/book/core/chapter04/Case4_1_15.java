@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * Case4_1_15 - 4.1.15. public final boolean hasQueuedThreads()方法的使用 <br/>
  * 查询是否有线程正在等待获取此锁，也就是等待队列中是否有等待的线程。
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/7/14
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case4_1_7 - 4.1.7 通知部分线程-正确用法
  * 本例通知了线程A，未通知线程B
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/1/14
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

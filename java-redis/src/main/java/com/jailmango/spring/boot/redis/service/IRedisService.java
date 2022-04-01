@@ -6,7 +6,7 @@ import com.jailmango.spring.boot.redis.model.RedisUserDto;
 /**
  * IRedisService
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-25
  * @see com.jailmango.java.spring.boot.redis.service
  * @since R9.0

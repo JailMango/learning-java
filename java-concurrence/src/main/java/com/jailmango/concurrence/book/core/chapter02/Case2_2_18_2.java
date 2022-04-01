@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_2_18_2 - 2.2.18 同步synchronized方法无限等待问题与解决方案，注意同「Case2_2_18_1」的区别
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-29
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

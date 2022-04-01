@@ -13,7 +13,7 @@ import com.jailmango.netty.lightman.netty.app.packet.response.HeartBeatResponseP
 /**
  * HeartBeatRequestHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/16
  * @see com.jailmango.netty.lightman.netty.app.server.handler
  * @since R9.0

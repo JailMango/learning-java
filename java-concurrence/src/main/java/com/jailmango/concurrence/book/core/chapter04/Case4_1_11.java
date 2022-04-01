@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
  * lock.lock() -> count + 1 <br/>
  * lock.unlock() -> count - 1 <br/>
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/7/6
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

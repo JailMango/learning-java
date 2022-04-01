@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * SingletonCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-22
  * @see com.jailmango.java.design.pattern.singleton
  * @since R9.0

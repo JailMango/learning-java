@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
  * 计划执行时间早于实际执行时间，且中间的任务被取消，不被执行 <br/>
  * 这说明不具备追赶执行性
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/17
  * @see com.jailmango.concurrence.book.core.chapter05
  * @since R9.0

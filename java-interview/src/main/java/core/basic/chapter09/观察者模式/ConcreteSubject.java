@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * ConcreteSubject
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/17
  * @see core.basic.chapter09.观察者模式
  * @since R9.0

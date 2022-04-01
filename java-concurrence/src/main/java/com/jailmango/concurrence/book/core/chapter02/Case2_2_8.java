@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_2_8 - 2.2.8 将任意对象作为锁
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-24
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * RedisProjApplication
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-25
  * @see com.jailmango.java.spring.boot.redis
  * @since R9.0

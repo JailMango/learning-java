@@ -12,7 +12,7 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 /**
  * NettyServer
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-12
  * @see com.jailmango.netty.lightman.netty.chapter11
  * @since R9.0

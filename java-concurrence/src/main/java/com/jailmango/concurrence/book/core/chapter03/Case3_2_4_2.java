@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case3_2_4_2 - 3.2.4.2 join(long)释放锁
  * 由于ThreadA使用了join()释放了锁，因此ThreadB可以调用同步方法。
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/12/19
  * @see com.jailmango.concurrence.book.core.chapter03
  * @since R9.0

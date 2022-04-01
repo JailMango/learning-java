@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
  * 5.1.5.3 测试schedule()方法任务延时——Date类型 <br/>
  * 在延时的情况下，如果任务被延时执行，则下一次执行任务的开始时间是参考上一次任务的实际结束时间来开始的 <br/>
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/8/17
  * @see com.jailmango.concurrence.book.core.chapter05
  * @since R9.0

@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 可重入锁_锁申请等待限时_3_1_2
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/30
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

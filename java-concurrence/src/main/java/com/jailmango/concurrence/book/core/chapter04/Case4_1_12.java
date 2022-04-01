@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
  * 若共有5个线程，其中1个线程长时间占有锁，那么调用getQueueLength()方法后，返回值为4 <br/>
  * 说明有4个线程同时在等待锁的释放
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/7/6
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0

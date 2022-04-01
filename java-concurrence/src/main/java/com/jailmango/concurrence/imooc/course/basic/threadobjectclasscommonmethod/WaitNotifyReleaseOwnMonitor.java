@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * WaitNotifyReleaseOwnMonitor <br/>
  * 证明wait()只释放当前的那把锁
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/5/2
  * @see com.jailmango.concurrence.imooc.course.basic.threadobjectclasscommonmethod
  * @since R9.0

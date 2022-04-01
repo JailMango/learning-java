@@ -17,7 +17,7 @@ import com.lmax.disruptor.dsl.ProducerType;
 /**
  * C5_4_2_使用Disruptor实现生产者消费者
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/22
  * @see com.jailmango.concurrence.book.action.chapter05
  * @since R9.0

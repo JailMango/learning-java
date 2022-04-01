@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 二叉树(BST - Binary Search Tree)
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/2/7
  * @see structure
  * @since R9.0

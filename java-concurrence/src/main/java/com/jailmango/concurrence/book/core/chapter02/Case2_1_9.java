@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_1_9 - 2.1.9 出现异常，锁自动释放
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-24
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

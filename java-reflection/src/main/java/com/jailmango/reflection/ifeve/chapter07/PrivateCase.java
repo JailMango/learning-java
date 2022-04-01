@@ -12,7 +12,7 @@ import com.jailmango.reflection.ifeve.dto.PersonDto;
 /**
  * PrivateCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-04-18
  * @see com.jailmango.reflection.ifeve.chapter07
  * @since R9.0

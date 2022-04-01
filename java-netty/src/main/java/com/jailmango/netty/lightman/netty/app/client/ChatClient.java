@@ -35,7 +35,7 @@ import com.jailmango.netty.lightman.netty.app.util.SessionUtil;
 /**
  * ChatClient
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/3
  * @see com.jailmango.netty.lightman.netty.app.client
  * @since R9.0

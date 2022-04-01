@@ -9,7 +9,7 @@ import com.google.common.util.concurrent.MoreExecutors;
 /**
  * Guava对线程池的扩展_3_2_10
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/9
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

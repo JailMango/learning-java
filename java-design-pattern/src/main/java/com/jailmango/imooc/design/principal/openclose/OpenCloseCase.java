@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * OpenCloseCase - 开闭原则
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-02-27
  * @see com.jailmango.imooc.design.principal.openclose
  * @since R9.0

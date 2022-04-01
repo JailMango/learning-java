@@ -3,7 +3,7 @@ package core.basic.chapter09.原型模式;
 /**
  * ComputerDetail
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/10
  * @see core.basic.chapter09.原型模式
  * @since R9.0

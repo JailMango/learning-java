@@ -3,7 +3,7 @@ package core.basic.chapter09.责任链模式;
 /**
  * AbstractHandler
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/17
  * @see core.basic.chapter09.责任链模式
  * @since R9.0

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 7.2.1 线程对象关联线程组 - 一级关联
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/7
  * @see com.jailmango.concurrence.book.core.chapter07
  * @since R9.0

@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 单链表反转
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/17
  * @see com.jailmango.algorithm.geektime
  * @since R9.0

@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * RestCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-02-18
  * @see com.jailmango.exercise.utils.rest
  * @since R9.0

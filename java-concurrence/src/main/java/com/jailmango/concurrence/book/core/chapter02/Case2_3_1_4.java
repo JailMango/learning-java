@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_3_1_4 - 2.3.1 - 4. 使用volatile关键字解决多线程出现的死循环，解决2.3.1.3的问题
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-30
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

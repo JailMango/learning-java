@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * ComparatorCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-06-25
  * @see com.jailmango.exercise.utils.comparator
  * @since R9.0

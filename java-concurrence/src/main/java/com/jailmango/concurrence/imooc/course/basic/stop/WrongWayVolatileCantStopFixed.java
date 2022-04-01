@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  * WrongWayVolatileCantStopFixed <br/>
  * 用中断来修复WrongWayVolatileCantStop中无尽等待的问题
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/4/23
  * @see com.jailmango.concurrence.imooc.course.basic.stop
  * @since R9.0

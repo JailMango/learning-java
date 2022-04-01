@@ -9,7 +9,7 @@ import com.jailmango.rmi.service.IUserService;
 /**
  * RmiClientConfiguration
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-07-04
  * @see com.jailmango.rmi.client.configuration
  * @since R9.0

@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * LoginServlet - 模拟非线程安全环境
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/11/17
  * @see com.jailmango.java.book.core.chapter01
  * @since R9.0<br>

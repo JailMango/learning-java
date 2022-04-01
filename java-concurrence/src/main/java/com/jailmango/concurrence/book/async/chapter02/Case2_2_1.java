@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 2.2.1 - 显式使用线程池
  *
- * @author gang.he2
+ * @author jailmango
  * @see com.jailmango.concurrence.book.async.chapter02
  */
 @Slf4j

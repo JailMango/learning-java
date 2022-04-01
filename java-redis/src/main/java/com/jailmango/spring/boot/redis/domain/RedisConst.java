@@ -3,7 +3,7 @@ package com.jailmango.spring.boot.redis.domain;
 /**
  * RedisConst
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-01-29
  * @see com.jailmango.java.spring.boot.redis.domain
  * @since R9.0

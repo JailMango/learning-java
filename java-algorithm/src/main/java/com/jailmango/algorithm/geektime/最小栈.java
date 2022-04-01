@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * 最小栈
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/9/27
  * @see com.jailmango.algorithm.geektime
  * @since R9.0

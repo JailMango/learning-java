@@ -3,7 +3,7 @@ package com.jailmango.concurrence.ifeve.thread.create;
 /**
  * CreateThread 线程创建
  * 
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2018/10/17
  * @see com.jailmango.java.concurrence.ifeve
  * @since R9.0<br>

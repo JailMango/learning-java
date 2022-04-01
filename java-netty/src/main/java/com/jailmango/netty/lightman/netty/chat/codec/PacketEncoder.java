@@ -12,7 +12,7 @@ import com.jailmango.netty.lightman.netty.chat.packet.Packet;
 /**
  * PacketEncoder
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-08-12
  * @see com.jailmango.netty.lightman.netty.chat.codec
  * @since R9.0

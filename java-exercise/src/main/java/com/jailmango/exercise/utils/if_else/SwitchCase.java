@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * SwitchCase
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2021/11/30
  * @see com.jailmango.exercise.utils.if_else
  */

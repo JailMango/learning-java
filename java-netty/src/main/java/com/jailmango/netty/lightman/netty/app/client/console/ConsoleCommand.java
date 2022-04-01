@@ -7,7 +7,7 @@ import io.netty.channel.Channel;
 /**
  * ConsoleCommand
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019/9/20
  * @see com.jailmango.netty.lightman.netty.app.client.console
  * @since R9.0

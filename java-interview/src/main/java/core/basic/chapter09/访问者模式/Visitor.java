@@ -3,7 +3,7 @@ package core.basic.chapter09.访问者模式;
 /**
  * Visitor
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/12/18
  * @see core.basic.chapter09.访问者模式
  * @since R9.0

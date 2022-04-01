@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 分而治之ForkJoin框架_3_2_9
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/10/9
  * @see com.jailmango.concurrence.book.action.chapter03
  * @since R9.0

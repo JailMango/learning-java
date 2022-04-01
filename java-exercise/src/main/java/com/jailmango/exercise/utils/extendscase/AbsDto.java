@@ -3,7 +3,7 @@ package com.jailmango.exercise.utils.extendscase;
 /**
  * AbsDto
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/7/16
  * @see com.jailmango.exercise.utils.extendscase
  * @since R9.0

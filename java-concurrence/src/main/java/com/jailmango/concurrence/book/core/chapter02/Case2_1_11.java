@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case2_1_11 - 2.1.11 holdsLock(Object obj)方法的使用
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2019-05-24
  * @see com.jailmango.concurrence.book.core.chapter02
  * @since R9.0

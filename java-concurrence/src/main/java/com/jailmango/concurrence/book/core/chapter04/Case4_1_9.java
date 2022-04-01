@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Case4_1_9 - 4.1.9 实现生产者/消费者模式多对多交替输出
  *
- * @author he.gang33
+ * @author jailmango
  * @CreateDate 2020/1/17
  * @see com.jailmango.concurrence.book.core.chapter04
  * @since R9.0
