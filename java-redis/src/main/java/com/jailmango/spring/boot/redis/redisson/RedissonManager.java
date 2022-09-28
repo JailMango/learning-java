@@ -1,13 +1,12 @@
 package com.jailmango.spring.boot.redis.redisson;
 
-import java.util.concurrent.TimeUnit;
-
+import lombok.extern.slf4j.Slf4j;
 import org.redisson.Redisson;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;
 
-import lombok.extern.slf4j.Slf4j;
+import java.util.concurrent.TimeUnit;
 
 /**
  * RedissonManager
@@ -27,7 +26,7 @@ public class RedissonManager {
      */
     public static void main(String[] args) {
         Config config = new Config();
-        config.useSingleServer().setAddress("redis://172.16.24.56:6379");
+        config.useSingleServer().setAddress("redis://127.0.0.1:6379");
         RedissonClient redissonClient = Redisson.create(config);
 
         final RLock lock = redissonClient.getLock("redis-lock");

@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * @author jailmango
  * @CreateDate 2019-01-25
- * @see com.jailmango.java.spring.boot.redis
+ * @see com.jailmango.spring.boot.redis
  * @since R9.0
  */
 @SpringBootApplication

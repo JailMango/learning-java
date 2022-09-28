@@ -1,11 +1,11 @@
 package com.jailmango.exercise.utils.comparator;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * ComparatorCase
@@ -29,6 +29,13 @@ public class ComparatorCase {
         StringBuilder sb = new StringBuilder();
 
         for (int i = 0; i < 20; i++) {
+
+            if (i % 3 != 0) {
+                list.add(new UserDto());
+                continue;
+            }
+
+
             user = new UserDto(random.nextInt(100));
             list.add(user);
 
@@ -44,6 +51,8 @@ public class ComparatorCase {
         for (int i = 0; i < list.size(); i++) {
             sb.append(list.get(i).getAge()).append(", ");
         }
+
+        String a = "v";
 
         logger.info("after sort: [{}]", sb.delete(sb.length() - 2, sb.length()));
 

@@ -10,13 +10,16 @@ package com.jailmango.exercise.utils.comparator;
  */
 public class UserDto {
 
-    private int age;
+    private Integer age;
+
+    public UserDto() {
+    }
 
     public UserDto(int age) {
         this.age = age;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
