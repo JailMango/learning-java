@@ -47,7 +47,7 @@
 
         <commons-collections4.version>4.4</commons-collections4.version>
         <mysql-connector.version>8.0.17</mysql-connector.version>
-        <guava.version>31.0.1-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <curator.version>5.2.0</curator.version>
         <redisson.version>3.15.0</redisson.version>
         <gson.version>2.9.0</gson.version>
